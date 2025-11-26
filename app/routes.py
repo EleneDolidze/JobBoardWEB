@@ -1,11 +1,14 @@
-from flask import render_template, redirect, url_for, flash, request
-from app import app, db
+from flask import Blueprint, render_template, redirect, url_for, flash, request
+from app import db
 from app.forms import RegistrationForm, LoginForm, JobForm, ProfileForm
 from app.models import User, Job
 from flask_login import login_user, logout_user, login_required, current_user
 import logging
 import os
 from werkzeug.utils import secure_filename
+
+main = Blueprint('main', __name__)
+
 
 #Logging setup
 logging.basicConfig(filename='jobboard.log',
@@ -14,15 +17,15 @@ logging.basicConfig(filename='jobboard.log',
 
 
 #Home Page/Jobs List
-@app.route("/")
-@app.route("/jobs")
+@main.route("/")
+@main.route("/jobs")
 def jobs():  # endpoint = 'jobs'
     all_jobs = Job.query.order_by(Job.date_posted.desc()).all()
     return render_template("jobs.html", jobs=all_jobs)
 
 
 #Registration
-@app.route("/register", methods=['GET', 'POST'])
+@main.route("/register", methods=['GET', 'POST'])
 def register():
     if current_user.is_authenticated:
         return redirect(url_for('jobs'))
@@ -39,7 +42,7 @@ def register():
 
 
 #Login
-@app.route("/login", methods=['GET', 'POST'])
+@main.route("/login", methods=['GET', 'POST'])
 def login():
     if current_user.is_authenticated:
         return redirect(url_for('jobs'))
@@ -58,7 +61,7 @@ def login():
 
 
 #Logout
-@app.route("/logout")
+@main.route("/logout")
 @login_required
 def logout():
     logging.info(f"User logged out: {current_user.email}")
@@ -68,7 +71,7 @@ def logout():
 
 
 #Add Job
-@app.route("/add_job", methods=['GET', 'POST'])
+@main.route("/add_job", methods=['GET', 'POST'])
 @login_required
 def add_job():
     form = JobForm()
@@ -92,14 +95,14 @@ def add_job():
 
 
 #Job Details
-@app.route("/job/<int:job_id>")
+@main.route("/job/<int:job_id>")
 def job_detail(job_id):
     job = Job.query.get_or_404(job_id)
     return render_template("job_detail.html", job=job)
 
 
 #Edit Job
-@app.route("/edit_job/<int:job_id>", methods=['GET', 'POST'])
+@main.route("/edit_job/<int:job_id>", methods=['GET', 'POST'])
 @login_required
 def edit_job(job_id):
     job = Job.query.get_or_404(job_id)
@@ -123,7 +126,7 @@ def edit_job(job_id):
 
 
 #Delete Job
-@app.route("/delete_job/<int:job_id>", methods=['POST'])
+@main.route("/delete_job/<int:job_id>", methods=['POST'])
 @login_required
 def delete_job(job_id):
     job = Job.query.get_or_404(job_id)
@@ -138,7 +141,7 @@ def delete_job(job_id):
 
 
 #Profile
-@app.route("/profile", methods=['GET', 'POST'])
+@main.route("/profile", methods=['GET', 'POST'])
 @login_required
 def profile():
     form = ProfileForm(obj=current_user)
@@ -149,7 +152,7 @@ def profile():
         if form.profile_image.data:
             image_file = form.profile_image.data
             filename = secure_filename(image_file.filename)
-            filepath = os.path.join(app.root_path, 'static/profile_pics', filename)
+            filepath = os.path.join(main.root_path, 'static/profile_pics', filename)
             image_file.save(filepath)
             current_user.profile_pic = filename
 
@@ -159,13 +162,13 @@ def profile():
     return render_template("profile.html", form=form)
 
 #About Page
-@app.route("/about")
+@main.route("/about")
 def about():
     return render_template("about.html")
 
 
 #Inspiration Page (API)
-@app.route("/inspiration")
+@main.route("/inspiration")
 def inspiration():
     quote = None
     try:
@@ -181,7 +184,7 @@ def inspiration():
 
 
 #User Jobs Page
-@app.route("/user/<int:user_id>")
+@main.route("/user/<int:user_id>")
 def user_jobs(user_id):
     user = User.query.get_or_404(user_id)
     jobs = Job.query.filter_by(user_id=user.id).order_by(Job.date_posted.desc()).all()
@@ -189,11 +192,11 @@ def user_jobs(user_id):
 
 
 #Error Handlers
-@app.errorhandler(404)
+@main.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
 
-@app.errorhandler(500)
+@main.errorhandler(500)
 def internal_error(e):
     db.session.rollback()
     return render_template('500.html'), 500
