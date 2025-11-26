@@ -11,7 +11,7 @@
         }
         .navbar-custom .nav-link,
         .navbar-custom .navbar-brand {
-            color: White; /* navbar text შავი */
+            color: black; /* navbar text შავი */
         }
         .navbar-custom .nav-link:hover {
             color: #ffd700; /* optional: ოქროსფერი hover */
@@ -27,7 +27,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ url_for('jobs') }}">JobBoard</a>
+        <a class="navbar-brand" href="{{ url_for('main.jobs') }}">JobBoard</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,24 +35,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('jobs') }}">Jobs</a>
+                    <a class="nav-link" href="{{ url_for('main.jobs') }}">Jobs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    <a class="nav-link" href="{{ url_for('main.about') }}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('inspiration') }}">Inspiration</a>
+                    <a class="nav-link" href="{{ url_for('main.inspiration') }}">Inspiration</a>
                 </li>
             </ul>
 
             <ul class="navbar-nav ms-auto">
                 {% if current_user.is_authenticated %}
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('add_job') }}">Add Job</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('profile') }}">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('logout') }}">Logout</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('main.add_job') }}">Add Job</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('main.profile') }}">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('main.logout') }}">Logout</a></li>
                 {% else %}
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('login') }}">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('register') }}">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('main.login') }}">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('main.register') }}">Register</a></li>
                 {% endif %}
             </ul>
         </div>

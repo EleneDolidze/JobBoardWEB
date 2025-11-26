@@ -6,7 +6,7 @@
   <div class="card-body">
     <h5 class="card-title">{{ job.title }}</h5>
     <p class="card-text">{{ job.short_desc }}</p>
-    <a href="{{ url_for('job_detail', job_id=job.id) }}" class="btn btn-primary">Read More</a>
+    <a href="{{ url_for('main.job_detail', job_id=job.id) }}" class="btn btn-primary">Read More</a>
   </div>
 </div>
 {% else %}

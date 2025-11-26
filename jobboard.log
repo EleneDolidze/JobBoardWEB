@@ -767,3 +767,643 @@
 2025-11-26 23:36:56,808:INFO:127.0.0.1 - - [26/Nov/2025 23:36:56] "GET /job/2 HTTP/1.1" 200 -
 2025-11-26 23:43:26,437:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\forms.py', reloading
 2025-11-26 23:43:26,507:INFO: * Restarting with stat
+2025-11-27 00:51:43,205:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 00:51:43,205:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 00:52:41,204:ERROR:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\routes.py", line 24, in jobs
+    return render_template("jobs.html", jobs=all_jobs)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\jobs.html", line 1, in top-level template code
+    {% extends "layout.html" %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\layout.html", line 30, in top-level template code
+    <a class="navbar-brand" href="{{ url_for('jobs') }}">JobBoard</a>
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'jobs'. Did you mean 'main.jobs' instead?
+2025-11-27 00:52:41,332:INFO:127.0.0.1 - - [27/Nov/2025 00:52:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 00:52:41,390:ERROR:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\routes.py", line 24, in jobs
+    return render_template("jobs.html", jobs=all_jobs)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\jobs.html", line 1, in top-level template code
+    {% extends "layout.html" %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\layout.html", line 30, in top-level template code
+    <a class="navbar-brand" href="{{ url_for('jobs') }}">JobBoard</a>
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+    
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'jobs'. Did you mean 'main.jobs' instead?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 860, in handle_exception
+    server_error = self.ensure_sync(handler)(server_error)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\routes.py", line 202, in internal_error
+    return render_template('500.html'), 500
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\500.html", line 1, in top-level template code
+    {% extends "layout.html" %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\layout.html", line 30, in top-level template code
+    <a class="navbar-brand" href="{{ url_for('jobs') }}">JobBoard</a>
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+    
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'jobs'. Did you mean 'main.jobs' instead?
+2025-11-27 00:52:41,805:ERROR:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\routes.py", line 24, in jobs
+    return render_template("jobs.html", jobs=all_jobs)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\jobs.html", line 1, in top-level template code
+    {% extends "layout.html" %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\layout.html", line 30, in top-level template code
+    <a class="navbar-brand" href="{{ url_for('jobs') }}">JobBoard</a>
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'jobs'. Did you mean 'main.jobs' instead?
+2025-11-27 00:52:41,811:INFO:127.0.0.1 - - [27/Nov/2025 00:52:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 00:52:41,831:ERROR:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\routes.py", line 24, in jobs
+    return render_template("jobs.html", jobs=all_jobs)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\jobs.html", line 1, in top-level template code
+    {% extends "layout.html" %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\layout.html", line 30, in top-level template code
+    <a class="navbar-brand" href="{{ url_for('jobs') }}">JobBoard</a>
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+    
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'jobs'. Did you mean 'main.jobs' instead?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 860, in handle_exception
+    server_error = self.ensure_sync(handler)(server_error)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\routes.py", line 202, in internal_error
+    return render_template('500.html'), 500
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\500.html", line 1, in top-level template code
+    {% extends "layout.html" %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\layout.html", line 30, in top-level template code
+    <a class="navbar-brand" href="{{ url_for('jobs') }}">JobBoard</a>
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+    
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'jobs'. Did you mean 'main.jobs' instead?
+2025-11-27 00:52:47,120:ERROR:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\routes.py", line 24, in jobs
+    return render_template("jobs.html", jobs=all_jobs)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\jobs.html", line 1, in top-level template code
+    {% extends "layout.html" %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\layout.html", line 30, in top-level template code
+    <a class="navbar-brand" href="{{ url_for('jobs') }}">JobBoard</a>
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'jobs'. Did you mean 'main.jobs' instead?
+2025-11-27 00:52:47,125:INFO:127.0.0.1 - - [27/Nov/2025 00:52:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 00:52:47,135:ERROR:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\routes.py", line 24, in jobs
+    return render_template("jobs.html", jobs=all_jobs)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\jobs.html", line 1, in top-level template code
+    {% extends "layout.html" %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\layout.html", line 30, in top-level template code
+    <a class="navbar-brand" href="{{ url_for('jobs') }}">JobBoard</a>
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+    
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'jobs'. Did you mean 'main.jobs' instead?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 860, in handle_exception
+    server_error = self.ensure_sync(handler)(server_error)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\routes.py", line 202, in internal_error
+    return render_template('500.html'), 500
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\500.html", line 1, in top-level template code
+    {% extends "layout.html" %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\OneDrive\Desktop\finalproject\app\templates\layout.html", line 30, in top-level template code
+    <a class="navbar-brand" href="{{ url_for('jobs') }}">JobBoard</a>
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+    
+  File "C:\Users\elene\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'jobs'. Did you mean 'main.jobs' instead?
+2025-11-27 00:55:00,360:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-27 00:55:00,360:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 00:55:00,362:INFO: * Restarting with stat
+2025-11-27 00:55:00,781:WARNING: * Debugger is active!
+2025-11-27 00:55:00,783:INFO: * Debugger PIN: 105-402-882
+2025-11-27 00:55:56,525:INFO:127.0.0.1 - - [27/Nov/2025 00:55:56] "[33mGET / HTTP/1.1[0m" 404 -
+2025-11-27 00:56:08,405:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\run.py', reloading
+2025-11-27 00:56:08,461:INFO: * Restarting with stat
+2025-11-27 00:56:08,901:WARNING: * Debugger is active!
+2025-11-27 00:56:08,903:INFO: * Debugger PIN: 105-402-882
+2025-11-27 01:00:57,078:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-27 01:00:57,149:INFO: * Restarting with stat
+2025-11-27 01:00:57,688:WARNING: * Debugger is active!
+2025-11-27 01:00:57,690:INFO: * Debugger PIN: 105-402-882
+2025-11-27 01:02:57,337:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\config.py', reloading
+2025-11-27 01:02:57,411:INFO: * Restarting with stat
+2025-11-27 01:02:57,913:WARNING: * Debugger is active!
+2025-11-27 01:02:57,915:INFO: * Debugger PIN: 105-402-882
+2025-11-27 01:04:57,549:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\__init__.py', reloading
+2025-11-27 01:04:57,602:INFO: * Restarting with stat
+2025-11-27 01:04:58,032:WARNING: * Debugger is active!
+2025-11-27 01:04:58,033:INFO: * Debugger PIN: 105-402-882
+2025-11-27 01:05:19,153:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\run.py', reloading
+2025-11-27 01:05:19,205:INFO: * Restarting with stat
+2025-11-27 01:08:56,734:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:08:56,734:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:08:56,735:INFO: * Restarting with stat
+2025-11-27 01:08:57,181:WARNING: * Debugger is active!
+2025-11-27 01:08:57,182:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:09:00,639:INFO:127.0.0.1 - - [27/Nov/2025 01:09:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:09:00,695:INFO:127.0.0.1 - - [27/Nov/2025 01:09:00] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-27 01:09:00,696:INFO:127.0.0.1 - - [27/Nov/2025 01:09:00] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-27 01:09:00,732:INFO:127.0.0.1 - - [27/Nov/2025 01:09:00] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=fHoZjXLBSQUBZK77yVlK HTTP/1.1" 200 -
+2025-11-27 01:09:00,745:INFO:127.0.0.1 - - [27/Nov/2025 01:09:00] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-27 01:09:00,905:INFO:127.0.0.1 - - [27/Nov/2025 01:09:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:09:00,916:INFO:127.0.0.1 - - [27/Nov/2025 01:09:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:09:00,917:INFO:127.0.0.1 - - [27/Nov/2025 01:09:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:09:00,927:INFO:127.0.0.1 - - [27/Nov/2025 01:09:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=fHoZjXLBSQUBZK77yVlK HTTP/1.1[0m" 304 -
+2025-11-27 01:11:17,520:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\__init__.py', reloading
+2025-11-27 01:11:17,572:INFO: * Restarting with stat
+2025-11-27 01:13:21,430:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:13:21,430:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:13:21,431:INFO: * Restarting with stat
+2025-11-27 01:13:21,865:WARNING: * Debugger is active!
+2025-11-27 01:13:21,866:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:13:44,045:INFO:127.0.0.1 - - [27/Nov/2025 01:13:44] "GET / HTTP/1.1" 200 -
+2025-11-27 01:13:48,379:INFO:127.0.0.1 - - [27/Nov/2025 01:13:48] "GET /jobs HTTP/1.1" 200 -
+2025-11-27 01:13:50,903:INFO:127.0.0.1 - - [27/Nov/2025 01:13:50] "GET /about HTTP/1.1" 200 -
+2025-11-27 01:13:54,779:INFO:127.0.0.1 - - [27/Nov/2025 01:13:54] "GET /inspiration HTTP/1.1" 200 -
+2025-11-27 01:15:04,550:INFO:127.0.0.1 - - [27/Nov/2025 01:15:04] "GET /inspiration HTTP/1.1" 200 -
+2025-11-27 01:15:07,294:INFO:127.0.0.1 - - [27/Nov/2025 01:15:07] "GET /jobs HTTP/1.1" 200 -
+2025-11-27 01:19:17,290:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-27 01:19:17,354:INFO: * Restarting with stat
+2025-11-27 01:23:16,002:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:23:16,002:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:23:16,003:INFO: * Restarting with stat
+2025-11-27 01:23:16,469:WARNING: * Debugger is active!
+2025-11-27 01:23:16,471:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:23:19,144:INFO:127.0.0.1 - - [27/Nov/2025 01:23:19] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-27 01:23:19,191:INFO:127.0.0.1 - - [27/Nov/2025 01:23:19] "GET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-27 01:23:19,192:INFO:127.0.0.1 - - [27/Nov/2025 01:23:19] "GET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-27 01:23:19,223:INFO:127.0.0.1 - - [27/Nov/2025 01:23:19] "GET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=l8xzxX4Y9l8rT79VYuHQ HTTP/1.1" 200 -
+2025-11-27 01:23:19,238:INFO:127.0.0.1 - - [27/Nov/2025 01:23:19] "GET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-27 01:24:01,648:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\create_db.py', reloading
+2025-11-27 01:24:01,703:INFO: * Restarting with stat
+2025-11-27 01:24:02,168:WARNING: * Debugger is active!
+2025-11-27 01:24:02,170:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:24:32,828:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:24:32,828:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:24:32,829:INFO: * Restarting with stat
+2025-11-27 01:24:33,242:WARNING: * Debugger is active!
+2025-11-27 01:24:33,244:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:24:36,710:INFO:127.0.0.1 - - [27/Nov/2025 01:24:36] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-27 01:24:36,755:INFO:127.0.0.1 - - [27/Nov/2025 01:24:36] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:24:36,756:INFO:127.0.0.1 - - [27/Nov/2025 01:24:36] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:24:36,768:INFO:127.0.0.1 - - [27/Nov/2025 01:24:36] "GET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=SlPCnSsLxeR7XCalxNQD HTTP/1.1" 200 -
+2025-11-27 01:24:36,775:INFO:127.0.0.1 - - [27/Nov/2025 01:24:36] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:24:37,726:INFO:127.0.0.1 - - [27/Nov/2025 01:24:37] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-27 01:24:37,742:INFO:127.0.0.1 - - [27/Nov/2025 01:24:37] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:24:37,743:INFO:127.0.0.1 - - [27/Nov/2025 01:24:37] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:24:37,754:INFO:127.0.0.1 - - [27/Nov/2025 01:24:37] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=SlPCnSsLxeR7XCalxNQD HTTP/1.1[0m" 304 -
+2025-11-27 01:24:37,759:INFO:127.0.0.1 - - [27/Nov/2025 01:24:37] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,414:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-27 01:24:38,425:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,426:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,438:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=SlPCnSsLxeR7XCalxNQD HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,444:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,591:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-27 01:24:38,603:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,604:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,608:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=SlPCnSsLxeR7XCalxNQD HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,618:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,737:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-27 01:24:38,748:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,750:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,758:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=SlPCnSsLxeR7XCalxNQD HTTP/1.1[0m" 304 -
+2025-11-27 01:24:38,768:INFO:127.0.0.1 - - [27/Nov/2025 01:24:38] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:25:19,917:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:25:19,917:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:25:19,918:INFO: * Restarting with stat
+2025-11-27 01:25:20,350:WARNING: * Debugger is active!
+2025-11-27 01:25:20,352:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:25:22,613:INFO:127.0.0.1 - - [27/Nov/2025 01:25:22] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-27 01:25:22,654:INFO:127.0.0.1 - - [27/Nov/2025 01:25:22] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:25:22,654:INFO:127.0.0.1 - - [27/Nov/2025 01:25:22] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:25:22,664:INFO:127.0.0.1 - - [27/Nov/2025 01:25:22] "GET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=6lu2zNaRnnWQPzs997mW HTTP/1.1" 200 -
+2025-11-27 01:25:22,671:INFO:127.0.0.1 - - [27/Nov/2025 01:25:22] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:29:58,488:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:29:58,488:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:29:58,489:INFO: * Restarting with stat
+2025-11-27 01:29:58,900:WARNING: * Debugger is active!
+2025-11-27 01:29:58,901:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:30:10,102:INFO:127.0.0.1 - - [27/Nov/2025 01:30:10] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-27 01:30:10,145:INFO:127.0.0.1 - - [27/Nov/2025 01:30:10] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:30:10,145:INFO:127.0.0.1 - - [27/Nov/2025 01:30:10] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:30:10,158:INFO:127.0.0.1 - - [27/Nov/2025 01:30:10] "GET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=lV20R4bzCSPnKuMLxYoH HTTP/1.1" 200 -
+2025-11-27 01:30:10,167:INFO:127.0.0.1 - - [27/Nov/2025 01:30:10] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:30:14,166:INFO:127.0.0.1 - - [27/Nov/2025 01:30:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:30:14,177:INFO:127.0.0.1 - - [27/Nov/2025 01:30:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:30:14,178:INFO:127.0.0.1 - - [27/Nov/2025 01:30:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:30:14,189:INFO:127.0.0.1 - - [27/Nov/2025 01:30:14] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=lV20R4bzCSPnKuMLxYoH HTTP/1.1" 200 -
+2025-11-27 01:30:14,195:INFO:127.0.0.1 - - [27/Nov/2025 01:30:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:35:25,712:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:35:25,712:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:35:25,713:INFO: * Restarting with stat
+2025-11-27 01:35:26,129:WARNING: * Debugger is active!
+2025-11-27 01:35:26,131:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:35:30,768:INFO:127.0.0.1 - - [27/Nov/2025 01:35:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:35:30,817:INFO:127.0.0.1 - - [27/Nov/2025 01:35:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:35:30,818:INFO:127.0.0.1 - - [27/Nov/2025 01:35:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:35:30,828:INFO:127.0.0.1 - - [27/Nov/2025 01:35:30] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=5fKSEUKzBjhGeQZI2Bqs HTTP/1.1" 200 -
+2025-11-27 01:35:30,841:INFO:127.0.0.1 - - [27/Nov/2025 01:35:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:36:36,314:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:36:36,314:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:36:36,315:INFO: * Restarting with stat
+2025-11-27 01:36:36,740:WARNING: * Debugger is active!
+2025-11-27 01:36:36,741:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:36:44,099:INFO:127.0.0.1 - - [27/Nov/2025 01:36:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:36:44,139:INFO:127.0.0.1 - - [27/Nov/2025 01:36:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:36:44,141:INFO:127.0.0.1 - - [27/Nov/2025 01:36:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:36:44,151:INFO:127.0.0.1 - - [27/Nov/2025 01:36:44] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=rVzsAJ5le0NB54m2H0jp HTTP/1.1" 200 -
+2025-11-27 01:36:44,157:INFO:127.0.0.1 - - [27/Nov/2025 01:36:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:36:44,760:INFO:127.0.0.1 - - [27/Nov/2025 01:36:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:36:44,777:INFO:127.0.0.1 - - [27/Nov/2025 01:36:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:36:44,778:INFO:127.0.0.1 - - [27/Nov/2025 01:36:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:36:44,790:INFO:127.0.0.1 - - [27/Nov/2025 01:36:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=rVzsAJ5le0NB54m2H0jp HTTP/1.1[0m" 304 -
+2025-11-27 01:36:44,796:INFO:127.0.0.1 - - [27/Nov/2025 01:36:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,043:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:36:45,058:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,060:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,063:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=rVzsAJ5le0NB54m2H0jp HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,072:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,225:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:36:45,241:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,242:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,251:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=rVzsAJ5le0NB54m2H0jp HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,259:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,776:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:36:45,790:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,790:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,795:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=rVzsAJ5le0NB54m2H0jp HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,804:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,962:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:36:45,974:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,975:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,979:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=rVzsAJ5le0NB54m2H0jp HTTP/1.1[0m" 304 -
+2025-11-27 01:36:45,991:INFO:127.0.0.1 - - [27/Nov/2025 01:36:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:36:58,725:INFO:127.0.0.1 - - [27/Nov/2025 01:36:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:36:58,749:INFO:127.0.0.1 - - [27/Nov/2025 01:36:58] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:36:58,751:INFO:127.0.0.1 - - [27/Nov/2025 01:36:58] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:36:58,797:INFO:127.0.0.1 - - [27/Nov/2025 01:36:58] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=rVzsAJ5le0NB54m2H0jp HTTP/1.1[0m" 304 -
+2025-11-27 01:38:23,069:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:38:23,069:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:38:23,070:INFO: * Restarting with stat
+2025-11-27 01:38:23,481:WARNING: * Debugger is active!
+2025-11-27 01:38:23,483:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:38:31,665:INFO:127.0.0.1 - - [27/Nov/2025 01:38:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:38:31,705:INFO:127.0.0.1 - - [27/Nov/2025 01:38:31] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:38:31,706:INFO:127.0.0.1 - - [27/Nov/2025 01:38:31] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:38:31,718:INFO:127.0.0.1 - - [27/Nov/2025 01:38:31] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=HO42yJJdknTdTQL1R5F2 HTTP/1.1" 200 -
+2025-11-27 01:38:33,206:INFO:127.0.0.1 - - [27/Nov/2025 01:38:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:38:33,237:INFO:127.0.0.1 - - [27/Nov/2025 01:38:33] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:38:33,238:INFO:127.0.0.1 - - [27/Nov/2025 01:38:33] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:38:33,334:INFO:127.0.0.1 - - [27/Nov/2025 01:38:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=HO42yJJdknTdTQL1R5F2 HTTP/1.1[0m" 304 -
+2025-11-27 01:45:17,572:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\run.py', reloading
+2025-11-27 01:45:17,668:INFO: * Restarting with stat
+2025-11-27 01:45:18,164:WARNING: * Debugger is active!
+2025-11-27 01:45:18,165:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:45:37,625:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\run.py', reloading
+2025-11-27 01:45:37,729:INFO: * Restarting with stat
+2025-11-27 01:45:38,241:WARNING: * Debugger is active!
+2025-11-27 01:45:38,243:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:45:42,886:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:45:42,886:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:45:42,887:INFO: * Restarting with stat
+2025-11-27 01:45:43,331:WARNING: * Debugger is active!
+2025-11-27 01:45:43,332:INFO: * Debugger PIN: 105-402-882
+2025-11-27 01:46:24,802:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:46:24,802:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:46:24,803:INFO: * Restarting with stat
+2025-11-27 01:46:25,238:WARNING: * Debugger is active!
+2025-11-27 01:46:25,240:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:46:34,915:INFO:127.0.0.1 - - [27/Nov/2025 01:46:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:46:34,992:INFO:127.0.0.1 - - [27/Nov/2025 01:46:34] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:46:35,004:INFO:127.0.0.1 - - [27/Nov/2025 01:46:35] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:46:35,035:INFO:127.0.0.1 - - [27/Nov/2025 01:46:35] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=cNKPqESpqwUf4uWsHNQN HTTP/1.1" 200 -
+2025-11-27 01:46:35,049:INFO:127.0.0.1 - - [27/Nov/2025 01:46:35] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:46:36,480:INFO:127.0.0.1 - - [27/Nov/2025 01:46:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:46:36,492:INFO:127.0.0.1 - - [27/Nov/2025 01:46:36] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:46:36,493:INFO:127.0.0.1 - - [27/Nov/2025 01:46:36] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:46:36,497:INFO:127.0.0.1 - - [27/Nov/2025 01:46:36] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=cNKPqESpqwUf4uWsHNQN HTTP/1.1[0m" 304 -
+2025-11-27 01:46:44,736:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\run.py', reloading
+2025-11-27 01:46:44,744:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\run.py', reloading
+2025-11-27 01:46:44,842:INFO: * Restarting with stat
+2025-11-27 01:46:44,851:INFO: * Restarting with stat
+2025-11-27 01:46:45,355:WARNING: * Debugger is active!
+2025-11-27 01:46:45,356:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:46:45,370:WARNING: * Debugger is active!
+2025-11-27 01:46:45,371:INFO: * Debugger PIN: 105-402-882
+2025-11-27 01:46:48,866:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:46:48,866:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:46:48,867:INFO: * Restarting with stat
+2025-11-27 01:46:49,291:WARNING: * Debugger is active!
+2025-11-27 01:46:49,292:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:47:00,367:INFO:127.0.0.1 - - [27/Nov/2025 01:47:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:47:00,409:INFO:127.0.0.1 - - [27/Nov/2025 01:47:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:47:00,410:INFO:127.0.0.1 - - [27/Nov/2025 01:47:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:47:00,421:INFO:127.0.0.1 - - [27/Nov/2025 01:47:00] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=3lKBvAJQJsaKLNNuZfv1 HTTP/1.1" 200 -
+2025-11-27 01:48:21,356:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 01:48:21,356:INFO:[33mPress CTRL+C to quit[0m
+2025-11-27 01:48:21,357:INFO: * Restarting with stat
+2025-11-27 01:48:21,782:WARNING: * Debugger is active!
+2025-11-27 01:48:21,785:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:48:33,928:INFO:127.0.0.1 - - [27/Nov/2025 01:48:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:48:34,458:INFO:127.0.0.1 - - [27/Nov/2025 01:48:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:48:34,494:INFO:127.0.0.1 - - [27/Nov/2025 01:48:34] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:48:34,495:INFO:127.0.0.1 - - [27/Nov/2025 01:48:34] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:48:34,512:INFO:127.0.0.1 - - [27/Nov/2025 01:48:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=3lKBvAJQJsaKLNNuZfv1 HTTP/1.1[0m" 304 -
+2025-11-27 01:49:46,886:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-27 01:49:46,961:INFO: * Restarting with stat
+2025-11-27 01:49:47,253:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-27 01:49:47,349:INFO: * Restarting with stat
+2025-11-27 01:49:47,536:WARNING: * Debugger is active!
+2025-11-27 01:49:47,538:INFO: * Debugger PIN: 105-402-882
+2025-11-27 01:49:47,814:WARNING: * Debugger is active!
+2025-11-27 01:49:47,815:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:49:52,626:INFO:127.0.0.1 - - [27/Nov/2025 01:49:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-27 01:49:52,677:INFO:127.0.0.1 - - [27/Nov/2025 01:49:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-27 01:49:52,681:INFO:127.0.0.1 - - [27/Nov/2025 01:49:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-27 01:49:52,691:INFO:127.0.0.1 - - [27/Nov/2025 01:49:52] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=cofWjivqsvBf1PpyFRNA HTTP/1.1" 200 -
+2025-11-27 01:49:52,701:INFO:127.0.0.1 - - [27/Nov/2025 01:49:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-27 01:50:19,620:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-27 01:50:19,673:INFO: * Restarting with stat
+2025-11-27 01:50:19,748:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-27 01:50:19,811:INFO: * Restarting with stat
+2025-11-27 01:50:20,157:WARNING: * Debugger is active!
+2025-11-27 01:50:20,158:INFO: * Debugger PIN: 608-876-673
+2025-11-27 01:50:20,290:WARNING: * Debugger is active!
+2025-11-27 01:50:20,291:INFO: * Debugger PIN: 105-402-882
+2025-11-27 01:50:20,746:INFO:127.0.0.1 - - [27/Nov/2025 01:50:20] "GET / HTTP/1.1" 200 -
