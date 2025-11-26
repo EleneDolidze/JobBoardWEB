@@ -1,0 +1,769 @@
+2025-11-23 16:48:54,704:WARNING: * Debugger is active!
+2025-11-23 16:48:54,705:INFO: * Debugger PIN: 608-876-673
+2025-11-23 16:54:48,314:INFO:127.0.0.1 - - [23/Nov/2025 16:54:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-23 16:54:48,374:INFO:127.0.0.1 - - [23/Nov/2025 16:54:48] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-23 16:54:48,374:INFO:127.0.0.1 - - [23/Nov/2025 16:54:48] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-23 16:54:48,420:INFO:127.0.0.1 - - [23/Nov/2025 16:54:48] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=MgYSivK9c6U5W80o2xpn HTTP/1.1" 200 -
+2025-11-23 16:54:48,439:INFO:127.0.0.1 - - [23/Nov/2025 16:54:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-23 16:54:53,641:INFO:127.0.0.1 - - [23/Nov/2025 16:54:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-23 16:54:53,659:INFO:127.0.0.1 - - [23/Nov/2025 16:54:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-23 16:54:53,661:INFO:127.0.0.1 - - [23/Nov/2025 16:54:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-23 16:54:53,725:INFO:127.0.0.1 - - [23/Nov/2025 16:54:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MgYSivK9c6U5W80o2xpn HTTP/1.1[0m" 304 -
+2025-11-23 16:56:28,199:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-23 16:56:28,199:INFO:[33mPress CTRL+C to quit[0m
+2025-11-23 16:56:28,201:INFO: * Restarting with stat
+2025-11-23 16:56:28,806:WARNING: * Debugger is active!
+2025-11-23 16:56:28,807:INFO: * Debugger PIN: 105-402-882
+2025-11-23 17:07:33,236:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-23 17:07:33,236:INFO:[33mPress CTRL+C to quit[0m
+2025-11-23 17:07:33,237:INFO: * Restarting with stat
+2025-11-23 17:07:33,744:WARNING: * Debugger is active!
+2025-11-23 17:07:33,746:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:07:56,434:INFO:127.0.0.1 - - [23/Nov/2025 17:07:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-23 17:07:56,539:INFO:127.0.0.1 - - [23/Nov/2025 17:07:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-23 17:07:56,540:INFO:127.0.0.1 - - [23/Nov/2025 17:07:56] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-23 17:07:56,581:INFO:127.0.0.1 - - [23/Nov/2025 17:07:56] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=bm35XfXE91n4RQtqwBy2 HTTP/1.1" 200 -
+2025-11-23 17:13:28,160:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-23 17:13:28,160:INFO:[33mPress CTRL+C to quit[0m
+2025-11-23 17:13:28,161:INFO: * Restarting with stat
+2025-11-23 17:13:28,787:WARNING: * Debugger is active!
+2025-11-23 17:13:28,789:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:13:41,870:INFO:127.0.0.1 - - [23/Nov/2025 17:13:41] "GET / HTTP/1.1" 200 -
+2025-11-23 17:17:14,467:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\__init__.py', reloading
+2025-11-23 17:17:14,536:INFO: * Restarting with stat
+2025-11-23 17:17:15,243:WARNING: * Debugger is active!
+2025-11-23 17:17:15,245:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:17:59,696:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-23 17:17:59,801:INFO: * Restarting with stat
+2025-11-23 17:18:00,572:WARNING: * Debugger is active!
+2025-11-23 17:18:00,574:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:18:04,125:INFO:127.0.0.1 - - [23/Nov/2025 17:18:04] "GET / HTTP/1.1" 200 -
+2025-11-23 17:20:33,525:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-23 17:20:33,525:INFO:[33mPress CTRL+C to quit[0m
+2025-11-23 17:20:33,526:INFO: * Restarting with stat
+2025-11-23 17:20:34,157:WARNING: * Debugger is active!
+2025-11-23 17:20:34,160:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:20:47,438:INFO:127.0.0.1 - - [23/Nov/2025 17:20:47] "GET / HTTP/1.1" 200 -
+2025-11-23 17:21:09,433:INFO:127.0.0.1 - - [23/Nov/2025 17:21:09] "GET /login HTTP/1.1" 200 -
+2025-11-23 17:21:14,407:INFO:127.0.0.1 - - [23/Nov/2025 17:21:14] "GET /register HTTP/1.1" 200 -
+2025-11-23 17:23:29,953:INFO:127.0.0.1 - - [23/Nov/2025 17:23:29] "GET /login HTTP/1.1" 200 -
+2025-11-23 17:23:36,751:WARNING:Failed login attempt: eleneedolidze@gmail.com
+2025-11-23 17:23:36,753:INFO:127.0.0.1 - - [23/Nov/2025 17:23:36] "POST /login HTTP/1.1" 200 -
+2025-11-23 17:23:39,709:INFO:127.0.0.1 - - [23/Nov/2025 17:23:39] "GET /register HTTP/1.1" 200 -
+2025-11-23 17:24:44,031:INFO:127.0.0.1 - - [23/Nov/2025 17:24:44] "POST /register HTTP/1.1" 200 -
+2025-11-23 17:24:56,257:INFO:127.0.0.1 - - [23/Nov/2025 17:24:56] "POST /register HTTP/1.1" 200 -
+2025-11-23 17:25:00,891:INFO:127.0.0.1 - - [23/Nov/2025 17:25:00] "GET /login HTTP/1.1" 200 -
+2025-11-23 17:25:03,927:INFO:127.0.0.1 - - [23/Nov/2025 17:25:03] "GET /register HTTP/1.1" 200 -
+2025-11-23 17:25:17,622:INFO:New user registered: eleneedolidze@gmail.com
+2025-11-23 17:25:17,623:INFO:127.0.0.1 - - [23/Nov/2025 17:25:17] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-23 17:25:17,629:INFO:127.0.0.1 - - [23/Nov/2025 17:25:17] "GET /login HTTP/1.1" 200 -
+2025-11-23 17:25:23,907:INFO:User logged in successfully: eleneedolidze@gmail.com
+2025-11-23 17:25:23,907:INFO:127.0.0.1 - - [23/Nov/2025 17:25:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-23 17:25:23,917:INFO:127.0.0.1 - - [23/Nov/2025 17:25:23] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:26:26,033:INFO:127.0.0.1 - - [23/Nov/2025 17:26:26] "[35m[1mGET /add_job HTTP/1.1[0m" 500 -
+2025-11-23 17:26:26,148:INFO:127.0.0.1 - - [23/Nov/2025 17:26:26] "GET /add_job?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-23 17:26:26,149:INFO:127.0.0.1 - - [23/Nov/2025 17:26:26] "GET /add_job?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-23 17:26:26,184:INFO:127.0.0.1 - - [23/Nov/2025 17:26:26] "GET /add_job?__debugger__=yes&cmd=resource&f=console.png&s=zMJJYMd9ojLiPYby2wHN HTTP/1.1" 200 -
+2025-11-23 17:26:26,197:INFO:127.0.0.1 - - [23/Nov/2025 17:26:26] "GET /add_job?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-23 17:28:40,292:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-23 17:28:40,292:INFO:[33mPress CTRL+C to quit[0m
+2025-11-23 17:28:40,293:INFO: * Restarting with stat
+2025-11-23 17:28:40,748:WARNING: * Debugger is active!
+2025-11-23 17:28:40,750:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:28:53,648:INFO:127.0.0.1 - - [23/Nov/2025 17:28:53] "GET / HTTP/1.1" 200 -
+2025-11-23 17:28:59,185:INFO:127.0.0.1 - - [23/Nov/2025 17:28:59] "GET /add_job HTTP/1.1" 200 -
+2025-11-23 17:29:10,427:INFO:127.0.0.1 - - [23/Nov/2025 17:29:10] "GET /profile HTTP/1.1" 200 -
+2025-11-23 17:29:15,560:INFO:User logged out: eleneedolidze@gmail.com
+2025-11-23 17:29:15,561:INFO:127.0.0.1 - - [23/Nov/2025 17:29:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-23 17:29:15,571:INFO:127.0.0.1 - - [23/Nov/2025 17:29:15] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:29:19,437:INFO:127.0.0.1 - - [23/Nov/2025 17:29:19] "GET /login HTTP/1.1" 200 -
+2025-11-23 17:29:23,183:INFO:127.0.0.1 - - [23/Nov/2025 17:29:23] "[35m[1mGET /about HTTP/1.1[0m" 500 -
+2025-11-23 17:29:23,279:INFO:127.0.0.1 - - [23/Nov/2025 17:29:23] "GET /about?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-23 17:29:23,280:INFO:127.0.0.1 - - [23/Nov/2025 17:29:23] "GET /about?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-23 17:29:23,313:INFO:127.0.0.1 - - [23/Nov/2025 17:29:23] "GET /about?__debugger__=yes&cmd=resource&f=console.png&s=YRPVPrvNXWB9CPmPAX1N HTTP/1.1" 200 -
+2025-11-23 17:29:23,323:INFO:127.0.0.1 - - [23/Nov/2025 17:29:23] "GET /about?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-23 17:29:26,775:INFO:127.0.0.1 - - [23/Nov/2025 17:29:26] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:30:15,864:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-23 17:30:15,864:INFO:[33mPress CTRL+C to quit[0m
+2025-11-23 17:30:15,865:INFO: * Restarting with stat
+2025-11-23 17:30:16,361:WARNING: * Debugger is active!
+2025-11-23 17:30:16,362:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:30:21,409:INFO:127.0.0.1 - - [23/Nov/2025 17:30:21] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:30:23,063:INFO:127.0.0.1 - - [23/Nov/2025 17:30:23] "GET /about HTTP/1.1" 200 -
+2025-11-23 17:30:28,221:INFO:127.0.0.1 - - [23/Nov/2025 17:30:28] "GET /login HTTP/1.1" 200 -
+2025-11-23 17:30:30,298:INFO:User logged in successfully: eleneedolidze@gmail.com
+2025-11-23 17:30:30,299:INFO:127.0.0.1 - - [23/Nov/2025 17:30:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-23 17:30:30,311:INFO:127.0.0.1 - - [23/Nov/2025 17:30:30] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:30:34,473:INFO:127.0.0.1 - - [23/Nov/2025 17:30:34] "GET /add_job HTTP/1.1" 200 -
+2025-11-23 17:31:36,932:INFO:Job added: Junior Data Analyst by eleneedolidze@gmail.com
+2025-11-23 17:31:36,936:INFO:127.0.0.1 - - [23/Nov/2025 17:31:36] "[32mPOST /add_job HTTP/1.1[0m" 302 -
+2025-11-23 17:31:36,943:INFO:127.0.0.1 - - [23/Nov/2025 17:31:36] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:31:41,518:INFO:127.0.0.1 - - [23/Nov/2025 17:31:41] "GET /job/1 HTTP/1.1" 200 -
+2025-11-23 17:31:45,064:INFO:Job deleted: Junior Data Analyst by eleneedolidze@gmail.com
+2025-11-23 17:31:45,066:INFO:127.0.0.1 - - [23/Nov/2025 17:31:45] "[32mPOST /delete_job/1 HTTP/1.1[0m" 302 -
+2025-11-23 17:31:45,074:INFO:127.0.0.1 - - [23/Nov/2025 17:31:45] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:36:16,262:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-23 17:36:16,348:INFO: * Restarting with stat
+2025-11-23 17:36:16,937:WARNING: * Debugger is active!
+2025-11-23 17:36:16,938:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:38:13,482:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-23 17:38:13,582:INFO: * Restarting with stat
+2025-11-23 17:38:14,120:WARNING: * Debugger is active!
+2025-11-23 17:38:14,121:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:39:29,392:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-23 17:39:29,392:INFO:[33mPress CTRL+C to quit[0m
+2025-11-23 17:39:29,393:INFO: * Restarting with stat
+2025-11-23 17:39:29,840:WARNING: * Debugger is active!
+2025-11-23 17:39:29,841:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:39:39,806:INFO:127.0.0.1 - - [23/Nov/2025 17:39:39] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:39:41,231:INFO:127.0.0.1 - - [23/Nov/2025 17:39:41] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:39:42,423:INFO:127.0.0.1 - - [23/Nov/2025 17:39:42] "GET /about HTTP/1.1" 200 -
+2025-11-23 17:39:44,425:INFO:127.0.0.1 - - [23/Nov/2025 17:39:44] "GET /add_job HTTP/1.1" 200 -
+2025-11-23 17:39:45,446:INFO:User logged out: eleneedolidze@gmail.com
+2025-11-23 17:39:45,447:INFO:127.0.0.1 - - [23/Nov/2025 17:39:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-23 17:39:45,456:INFO:127.0.0.1 - - [23/Nov/2025 17:39:45] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:39:47,643:INFO:127.0.0.1 - - [23/Nov/2025 17:39:47] "GET /login HTTP/1.1" 200 -
+2025-11-23 17:39:49,657:INFO:User logged in successfully: eleneedolidze@gmail.com
+2025-11-23 17:39:49,660:INFO:127.0.0.1 - - [23/Nov/2025 17:39:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-23 17:39:49,669:INFO:127.0.0.1 - - [23/Nov/2025 17:39:49] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:39:51,922:INFO:127.0.0.1 - - [23/Nov/2025 17:39:51] "GET /add_job HTTP/1.1" 200 -
+2025-11-23 17:41:44,873:INFO:Job added: Data Scientist by eleneedolidze@gmail.com
+2025-11-23 17:41:44,875:INFO:127.0.0.1 - - [23/Nov/2025 17:41:44] "[32mPOST /add_job HTTP/1.1[0m" 302 -
+2025-11-23 17:41:44,885:INFO:127.0.0.1 - - [23/Nov/2025 17:41:44] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:41:48,374:INFO:127.0.0.1 - - [23/Nov/2025 17:41:48] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2025-11-23 17:41:48,470:INFO:127.0.0.1 - - [23/Nov/2025 17:41:48] "GET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-23 17:41:48,474:INFO:127.0.0.1 - - [23/Nov/2025 17:41:48] "GET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-23 17:41:48,488:INFO:127.0.0.1 - - [23/Nov/2025 17:41:48] "GET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=B8mmsw7GRTumll2QL7ay HTTP/1.1" 200 -
+2025-11-23 17:41:48,504:INFO:127.0.0.1 - - [23/Nov/2025 17:41:48] "GET /user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-23 17:42:47,429:INFO:User logged out: eleneedolidze@gmail.com
+2025-11-23 17:42:47,430:INFO:127.0.0.1 - - [23/Nov/2025 17:42:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-23 17:42:47,442:INFO:127.0.0.1 - - [23/Nov/2025 17:42:47] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:42:54,022:INFO:127.0.0.1 - - [23/Nov/2025 17:42:54] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:42:54,907:INFO:127.0.0.1 - - [23/Nov/2025 17:42:54] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:44:21,519:INFO:127.0.0.1 - - [23/Nov/2025 17:44:21] "GET /about HTTP/1.1" 200 -
+2025-11-23 17:44:22,711:INFO:127.0.0.1 - - [23/Nov/2025 17:44:22] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:44:25,362:INFO:127.0.0.1 - - [23/Nov/2025 17:44:25] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:44:26,482:INFO:127.0.0.1 - - [23/Nov/2025 17:44:26] "GET /about HTTP/1.1" 200 -
+2025-11-23 17:44:27,278:INFO:127.0.0.1 - - [23/Nov/2025 17:44:27] "GET /about HTTP/1.1" 200 -
+2025-11-23 17:44:28,237:INFO:127.0.0.1 - - [23/Nov/2025 17:44:28] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:44:29,185:INFO:127.0.0.1 - - [23/Nov/2025 17:44:29] "GET /about HTTP/1.1" 200 -
+2025-11-23 17:44:31,266:INFO:127.0.0.1 - - [23/Nov/2025 17:44:31] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:45:06,436:INFO:127.0.0.1 - - [23/Nov/2025 17:45:06] "GET /login HTTP/1.1" 200 -
+2025-11-23 17:45:08,458:INFO:User logged in successfully: eleneedolidze@gmail.com
+2025-11-23 17:45:08,459:INFO:127.0.0.1 - - [23/Nov/2025 17:45:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-23 17:45:08,463:INFO:127.0.0.1 - - [23/Nov/2025 17:45:08] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:45:13,228:INFO:User logged out: eleneedolidze@gmail.com
+2025-11-23 17:45:13,229:INFO:127.0.0.1 - - [23/Nov/2025 17:45:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-23 17:45:13,238:INFO:127.0.0.1 - - [23/Nov/2025 17:45:13] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:46:18,164:INFO:127.0.0.1 - - [23/Nov/2025 17:46:18] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2025-11-23 17:46:18,185:INFO:127.0.0.1 - - [23/Nov/2025 17:46:18] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-23 17:46:18,186:INFO:127.0.0.1 - - [23/Nov/2025 17:46:18] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-23 17:46:18,200:INFO:127.0.0.1 - - [23/Nov/2025 17:46:18] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=B8mmsw7GRTumll2QL7ay HTTP/1.1[0m" 304 -
+2025-11-23 17:50:19,516:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-23 17:50:19,578:INFO: * Restarting with stat
+2025-11-23 17:50:20,136:WARNING: * Debugger is active!
+2025-11-23 17:50:20,138:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:52:02,739:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-23 17:52:02,740:INFO:[33mPress CTRL+C to quit[0m
+2025-11-23 17:52:02,740:INFO: * Restarting with stat
+2025-11-23 17:52:03,226:WARNING: * Debugger is active!
+2025-11-23 17:52:03,227:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:52:06,990:INFO:127.0.0.1 - - [23/Nov/2025 17:52:06] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:52:10,069:INFO:127.0.0.1 - - [23/Nov/2025 17:52:10] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2025-11-23 17:52:10,165:INFO:127.0.0.1 - - [23/Nov/2025 17:52:10] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-23 17:52:10,166:INFO:127.0.0.1 - - [23/Nov/2025 17:52:10] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-23 17:52:10,176:INFO:127.0.0.1 - - [23/Nov/2025 17:52:10] "GET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=yDVuPJrInbHC6UVhe3cY HTTP/1.1" 200 -
+2025-11-23 17:52:14,076:INFO:127.0.0.1 - - [23/Nov/2025 17:52:14] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2025-11-23 17:52:14,098:INFO:127.0.0.1 - - [23/Nov/2025 17:52:14] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-23 17:52:14,100:INFO:127.0.0.1 - - [23/Nov/2025 17:52:14] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-23 17:52:14,107:INFO:127.0.0.1 - - [23/Nov/2025 17:52:14] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=yDVuPJrInbHC6UVhe3cY HTTP/1.1[0m" 304 -
+2025-11-23 17:52:16,435:INFO:127.0.0.1 - - [23/Nov/2025 17:52:16] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:52:17,701:INFO:127.0.0.1 - - [23/Nov/2025 17:52:17] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:52:18,334:INFO:127.0.0.1 - - [23/Nov/2025 17:52:18] "GET /about HTTP/1.1" 200 -
+2025-11-23 17:52:18,870:INFO:127.0.0.1 - - [23/Nov/2025 17:52:18] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:52:20,047:INFO:127.0.0.1 - - [23/Nov/2025 17:52:20] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2025-11-23 17:52:20,072:INFO:127.0.0.1 - - [23/Nov/2025 17:52:20] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-23 17:52:20,073:INFO:127.0.0.1 - - [23/Nov/2025 17:52:20] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-23 17:52:20,085:INFO:127.0.0.1 - - [23/Nov/2025 17:52:20] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=yDVuPJrInbHC6UVhe3cY HTTP/1.1[0m" 304 -
+2025-11-23 17:53:24,994:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\models.py', reloading
+2025-11-23 17:53:25,071:INFO: * Restarting with stat
+2025-11-23 17:53:25,592:WARNING: * Debugger is active!
+2025-11-23 17:53:25,595:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:58:24,058:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-23 17:58:24,058:INFO:[33mPress CTRL+C to quit[0m
+2025-11-23 17:58:24,059:INFO: * Restarting with stat
+2025-11-23 17:58:24,592:WARNING: * Debugger is active!
+2025-11-23 17:58:24,593:INFO: * Debugger PIN: 608-876-673
+2025-11-23 17:58:49,419:INFO:127.0.0.1 - - [23/Nov/2025 17:58:49] "GET / HTTP/1.1" 200 -
+2025-11-23 17:58:52,827:INFO:127.0.0.1 - - [23/Nov/2025 17:58:52] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2025-11-23 17:58:52,876:INFO:127.0.0.1 - - [23/Nov/2025 17:58:52] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-23 17:58:52,876:INFO:127.0.0.1 - - [23/Nov/2025 17:58:52] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-23 17:58:52,909:INFO:127.0.0.1 - - [23/Nov/2025 17:58:52] "GET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=3fSK7Rs1ePIYbOsqFq6C HTTP/1.1" 200 -
+2025-11-23 17:59:48,589:INFO:127.0.0.1 - - [23/Nov/2025 17:59:48] "GET /user/1 HTTP/1.1" 200 -
+2025-11-23 17:59:57,100:INFO:127.0.0.1 - - [23/Nov/2025 17:59:57] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 17:59:59,168:INFO:127.0.0.1 - - [23/Nov/2025 17:59:59] "GET /user/1 HTTP/1.1" 200 -
+2025-11-23 18:01:48,570:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-23 18:01:48,647:INFO: * Restarting with stat
+2025-11-23 18:01:49,165:WARNING: * Debugger is active!
+2025-11-23 18:01:49,166:INFO: * Debugger PIN: 608-876-673
+2025-11-23 18:01:59,152:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-23 18:01:59,152:INFO:[33mPress CTRL+C to quit[0m
+2025-11-23 18:01:59,153:INFO: * Restarting with stat
+2025-11-23 18:01:59,682:WARNING: * Debugger is active!
+2025-11-23 18:01:59,684:INFO: * Debugger PIN: 608-876-673
+2025-11-23 18:02:02,729:INFO:127.0.0.1 - - [23/Nov/2025 18:02:02] "GET /user/1 HTTP/1.1" 200 -
+2025-11-23 18:02:05,324:INFO:127.0.0.1 - - [23/Nov/2025 18:02:05] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 18:02:06,567:INFO:127.0.0.1 - - [23/Nov/2025 18:02:06] "GET /about HTTP/1.1" 200 -
+2025-11-23 18:02:07,273:INFO:127.0.0.1 - - [23/Nov/2025 18:02:07] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 18:02:09,096:INFO:127.0.0.1 - - [23/Nov/2025 18:02:09] "GET /login HTTP/1.1" 200 -
+2025-11-23 18:02:10,530:INFO:User logged in successfully: eleneedolidze@gmail.com
+2025-11-23 18:02:10,532:INFO:127.0.0.1 - - [23/Nov/2025 18:02:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-23 18:02:10,540:INFO:127.0.0.1 - - [23/Nov/2025 18:02:10] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 18:02:12,211:INFO:127.0.0.1 - - [23/Nov/2025 18:02:12] "GET /profile HTTP/1.1" 200 -
+2025-11-23 18:02:12,241:INFO:127.0.0.1 - - [23/Nov/2025 18:02:12] "[33mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 404 -
+2025-11-23 18:02:34,925:INFO:127.0.0.1 - - [23/Nov/2025 18:02:34] "[35m[1mPOST /profile HTTP/1.1[0m" 500 -
+2025-11-23 18:02:35,016:INFO:127.0.0.1 - - [23/Nov/2025 18:02:35] "GET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-23 18:02:35,017:INFO:127.0.0.1 - - [23/Nov/2025 18:02:35] "GET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-23 18:02:35,025:INFO:127.0.0.1 - - [23/Nov/2025 18:02:35] "GET /profile?__debugger__=yes&cmd=resource&f=console.png&s=htjxyxJx2Spl8MJEtibc HTTP/1.1" 200 -
+2025-11-23 18:02:35,032:INFO:127.0.0.1 - - [23/Nov/2025 18:02:35] "GET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-23 18:02:43,725:INFO:127.0.0.1 - - [23/Nov/2025 18:02:43] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 18:02:43,936:INFO:127.0.0.1 - - [23/Nov/2025 18:02:43] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-11-23 18:02:51,421:INFO:127.0.0.1 - - [23/Nov/2025 18:02:51] "GET /profile HTTP/1.1" 200 -
+2025-11-23 18:02:51,446:INFO:127.0.0.1 - - [23/Nov/2025 18:02:51] "[33mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 404 -
+2025-11-23 18:03:00,427:INFO:127.0.0.1 - - [23/Nov/2025 18:03:00] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2025-11-23 18:03:00,435:INFO:127.0.0.1 - - [23/Nov/2025 18:03:00] "GET /profile HTTP/1.1" 200 -
+2025-11-23 18:03:00,449:INFO:127.0.0.1 - - [23/Nov/2025 18:03:00] "[33mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 404 -
+2025-11-23 18:03:05,744:INFO:User logged out: dolidzee@gmail.com
+2025-11-23 18:03:05,745:INFO:127.0.0.1 - - [23/Nov/2025 18:03:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-23 18:03:05,758:INFO:127.0.0.1 - - [23/Nov/2025 18:03:05] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 18:03:08,478:INFO:127.0.0.1 - - [23/Nov/2025 18:03:08] "GET /user/1 HTTP/1.1" 200 -
+2025-11-23 18:03:10,810:INFO:127.0.0.1 - - [23/Nov/2025 18:03:10] "GET /login HTTP/1.1" 200 -
+2025-11-23 18:03:14,660:WARNING:Failed login attempt: eleneedolidze@gmail.com
+2025-11-23 18:03:14,661:INFO:127.0.0.1 - - [23/Nov/2025 18:03:14] "POST /login HTTP/1.1" 200 -
+2025-11-23 18:03:19,353:INFO:User logged in successfully: dolidzee@gmail.com
+2025-11-23 18:03:19,354:INFO:127.0.0.1 - - [23/Nov/2025 18:03:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-23 18:03:19,361:INFO:127.0.0.1 - - [23/Nov/2025 18:03:19] "GET /jobs HTTP/1.1" 200 -
+2025-11-23 18:04:07,423:INFO:127.0.0.1 - - [23/Nov/2025 18:04:07] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 21:23:32,046:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 21:23:32,046:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 21:23:32,048:INFO: * Restarting with stat
+2025-11-24 21:23:32,820:WARNING: * Debugger is active!
+2025-11-24 21:23:32,822:INFO: * Debugger PIN: 608-876-673
+2025-11-24 21:24:37,165:INFO:127.0.0.1 - - [24/Nov/2025 21:24:37] "GET / HTTP/1.1" 200 -
+2025-11-24 21:24:43,365:INFO:127.0.0.1 - - [24/Nov/2025 21:24:43] "GET /user/1 HTTP/1.1" 200 -
+2025-11-24 21:24:47,278:INFO:127.0.0.1 - - [24/Nov/2025 21:24:47] "GET /job/1 HTTP/1.1" 200 -
+2025-11-24 21:24:50,526:INFO:127.0.0.1 - - [24/Nov/2025 21:24:50] "[35m[1mGET /edit_job/1 HTTP/1.1[0m" 500 -
+2025-11-24 21:24:50,550:INFO:127.0.0.1 - - [24/Nov/2025 21:24:50] "GET /edit_job/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-24 21:24:50,551:INFO:127.0.0.1 - - [24/Nov/2025 21:24:50] "GET /edit_job/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-24 21:24:50,566:INFO:127.0.0.1 - - [24/Nov/2025 21:24:50] "GET /edit_job/1?__debugger__=yes&cmd=resource&f=console.png&s=htjxyxJx2Spl8MJEtibc HTTP/1.1" 200 -
+2025-11-24 21:24:50,602:INFO:127.0.0.1 - - [24/Nov/2025 21:24:50] "GET /edit_job/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-24 21:24:53,902:INFO:Job deleted: Data Scientist by dolidzee@gmail.com
+2025-11-24 21:24:53,903:INFO:127.0.0.1 - - [24/Nov/2025 21:24:53] "[32mPOST /delete_job/1 HTTP/1.1[0m" 302 -
+2025-11-24 21:24:53,913:INFO:127.0.0.1 - - [24/Nov/2025 21:24:53] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 21:25:02,183:INFO:127.0.0.1 - - [24/Nov/2025 21:25:02] "GET /add_job HTTP/1.1" 200 -
+2025-11-24 21:25:22,549:INFO:Job added: juniorag by dolidzee@gmail.com
+2025-11-24 21:25:22,551:INFO:127.0.0.1 - - [24/Nov/2025 21:25:22] "[32mPOST /add_job HTTP/1.1[0m" 302 -
+2025-11-24 21:25:22,566:INFO:127.0.0.1 - - [24/Nov/2025 21:25:22] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 21:25:24,359:INFO:127.0.0.1 - - [24/Nov/2025 21:25:24] "GET /user/1 HTTP/1.1" 200 -
+2025-11-24 21:25:26,497:INFO:127.0.0.1 - - [24/Nov/2025 21:25:26] "GET /job/1 HTTP/1.1" 200 -
+2025-11-24 21:25:51,315:INFO:127.0.0.1 - - [24/Nov/2025 21:25:51] "[35m[1mGET /edit_job/1 HTTP/1.1[0m" 500 -
+2025-11-24 21:25:51,349:INFO:127.0.0.1 - - [24/Nov/2025 21:25:51] "[36mGET /edit_job/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 21:25:51,353:INFO:127.0.0.1 - - [24/Nov/2025 21:25:51] "[36mGET /edit_job/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 21:25:51,382:INFO:127.0.0.1 - - [24/Nov/2025 21:25:51] "[36mGET /edit_job/1?__debugger__=yes&cmd=resource&f=console.png&s=htjxyxJx2Spl8MJEtibc HTTP/1.1[0m" 304 -
+2025-11-24 21:26:56,806:INFO:127.0.0.1 - - [24/Nov/2025 21:26:56] "GET /edit_job/1 HTTP/1.1" 200 -
+2025-11-24 21:27:06,930:INFO:Job edited: juniorag by dolidzee@gmail.com
+2025-11-24 21:27:06,931:INFO:127.0.0.1 - - [24/Nov/2025 21:27:06] "[32mPOST /edit_job/1 HTTP/1.1[0m" 302 -
+2025-11-24 21:27:06,945:INFO:127.0.0.1 - - [24/Nov/2025 21:27:06] "GET /job/1 HTTP/1.1" 200 -
+2025-11-24 21:27:15,009:INFO:127.0.0.1 - - [24/Nov/2025 21:27:15] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 21:27:58,876:INFO:127.0.0.1 - - [24/Nov/2025 21:27:58] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 21:27:59,975:INFO:127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 21:31:39,426:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-24 21:31:39,557:INFO: * Restarting with stat
+2025-11-24 21:31:39,985:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-24 21:37:30,842:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 21:37:30,843:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 21:37:30,844:INFO: * Restarting with stat
+2025-11-24 21:37:31,737:WARNING: * Debugger is active!
+2025-11-24 21:37:31,739:INFO: * Debugger PIN: 608-876-673
+2025-11-24 21:37:33,734:INFO:127.0.0.1 - - [24/Nov/2025 21:37:33] "GET / HTTP/1.1" 200 -
+2025-11-24 21:37:37,182:INFO:127.0.0.1 - - [24/Nov/2025 21:37:37] "GET /about HTTP/1.1" 200 -
+2025-11-24 21:37:40,255:INFO:127.0.0.1 - - [24/Nov/2025 21:37:40] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 21:37:41,141:INFO:127.0.0.1 - - [24/Nov/2025 21:37:41] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 21:37:42,290:INFO:127.0.0.1 - - [24/Nov/2025 21:37:42] "GET /about HTTP/1.1" 200 -
+2025-11-24 21:37:43,209:INFO:127.0.0.1 - - [24/Nov/2025 21:37:43] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 21:38:18,397:INFO:127.0.0.1 - - [24/Nov/2025 21:38:18] "GET /inspiration HTTP/1.1" 200 -
+2025-11-24 21:39:05,086:INFO:127.0.0.1 - - [24/Nov/2025 21:39:05] "GET /inspiration HTTP/1.1" 200 -
+2025-11-24 21:39:49,225:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-24 21:39:49,397:INFO: * Restarting with stat
+2025-11-24 21:39:50,667:WARNING: * Debugger is active!
+2025-11-24 21:39:50,670:INFO: * Debugger PIN: 608-876-673
+2025-11-24 21:40:30,630:INFO:127.0.0.1 - - [24/Nov/2025 21:40:30] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 21:40:33,159:INFO:127.0.0.1 - - [24/Nov/2025 21:40:33] "GET /inspiration HTTP/1.1" 200 -
+2025-11-24 21:42:18,194:INFO:127.0.0.1 - - [24/Nov/2025 21:42:18] "GET /inspiration HTTP/1.1" 200 -
+2025-11-24 21:43:04,610:INFO:127.0.0.1 - - [24/Nov/2025 21:43:04] "GET /inspiration HTTP/1.1" 200 -
+2025-11-24 21:44:04,030:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-24 21:44:04,104:INFO: * Restarting with stat
+2025-11-24 21:44:05,102:WARNING: * Debugger is active!
+2025-11-24 21:44:05,104:INFO: * Debugger PIN: 608-876-673
+2025-11-24 21:49:18,607:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\forms.py', reloading
+2025-11-24 21:49:18,705:INFO: * Restarting with stat
+2025-11-24 21:49:19,721:WARNING: * Debugger is active!
+2025-11-24 21:49:19,726:INFO: * Debugger PIN: 608-876-673
+2025-11-24 21:49:39,456:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-24 21:49:39,567:INFO: * Restarting with stat
+2025-11-24 21:49:40,497:WARNING: * Debugger is active!
+2025-11-24 21:49:40,502:INFO: * Debugger PIN: 608-876-673
+2025-11-24 21:54:09,062:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\tests\\tests_app.py', reloading
+2025-11-24 21:54:09,160:INFO: * Restarting with stat
+2025-11-24 21:54:15,035:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 21:54:15,036:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 21:54:15,038:INFO: * Restarting with stat
+2025-11-24 21:54:16,031:WARNING: * Debugger is active!
+2025-11-24 21:54:16,038:INFO: * Debugger PIN: 608-876-673
+2025-11-24 21:54:57,426:INFO:127.0.0.1 - - [24/Nov/2025 21:54:57] "GET / HTTP/1.1" 200 -
+2025-11-24 21:55:00,868:INFO:127.0.0.1 - - [24/Nov/2025 21:55:00] "GET / HTTP/1.1" 200 -
+2025-11-24 21:55:53,643:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\tests\\tests_app.py', reloading
+2025-11-24 21:55:53,789:INFO: * Restarting with stat
+2025-11-24 21:55:54,902:WARNING: * Debugger is active!
+2025-11-24 21:55:54,909:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:13:45,267:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 22:13:45,267:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 22:13:45,271:INFO: * Restarting with stat
+2025-11-24 22:13:46,383:WARNING: * Debugger is active!
+2025-11-24 22:13:46,394:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:14:32,775:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 22:14:32,776:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 22:14:32,777:INFO: * Restarting with stat
+2025-11-24 22:14:33,702:WARNING: * Debugger is active!
+2025-11-24 22:14:33,707:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:14:44,074:INFO:127.0.0.1 - - [24/Nov/2025 22:14:44] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2025-11-24 22:14:44,206:INFO:127.0.0.1 - - [24/Nov/2025 22:14:44] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:14:44,207:INFO:127.0.0.1 - - [24/Nov/2025 22:14:44] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:14:44,275:INFO:127.0.0.1 - - [24/Nov/2025 22:14:44] "GET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=PflVFnPTOnlHRjG2o0AW HTTP/1.1" 200 -
+2025-11-24 22:14:44,308:INFO:127.0.0.1 - - [24/Nov/2025 22:14:44] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 22:14:47,127:INFO:127.0.0.1 - - [24/Nov/2025 22:14:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:14:47,163:INFO:127.0.0.1 - - [24/Nov/2025 22:14:47] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:14:47,168:INFO:127.0.0.1 - - [24/Nov/2025 22:14:47] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:14:47,191:INFO:127.0.0.1 - - [24/Nov/2025 22:14:47] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=PflVFnPTOnlHRjG2o0AW HTTP/1.1" 200 -
+2025-11-24 22:14:47,208:INFO:127.0.0.1 - - [24/Nov/2025 22:14:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 22:15:39,026:INFO:127.0.0.1 - - [24/Nov/2025 22:15:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:15:39,348:INFO:127.0.0.1 - - [24/Nov/2025 22:15:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:15:39,419:INFO:127.0.0.1 - - [24/Nov/2025 22:15:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:15:39,420:INFO:127.0.0.1 - - [24/Nov/2025 22:15:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:15:39,481:INFO:127.0.0.1 - - [24/Nov/2025 22:15:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=PflVFnPTOnlHRjG2o0AW HTTP/1.1[0m" 304 -
+2025-11-24 22:16:53,036:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 22:16:53,037:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 22:16:53,038:INFO: * Restarting with stat
+2025-11-24 22:16:53,824:WARNING: * Debugger is active!
+2025-11-24 22:16:53,826:INFO: * Debugger PIN: 105-402-882
+2025-11-24 22:20:43,101:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 22:20:43,101:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 22:20:43,103:INFO: * Restarting with stat
+2025-11-24 22:20:44,340:WARNING: * Debugger is active!
+2025-11-24 22:20:44,350:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:20:56,855:INFO:127.0.0.1 - - [24/Nov/2025 22:20:56] "GET / HTTP/1.1" 200 -
+2025-11-24 22:23:22,840:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\existing_jobs.py', reloading
+2025-11-24 22:23:23,026:INFO: * Restarting with stat
+2025-11-24 22:23:24,785:WARNING: * Debugger is active!
+2025-11-24 22:23:24,794:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:25:41,695:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\existing_jobs.py', reloading
+2025-11-24 22:25:41,763:INFO: * Restarting with stat
+2025-11-24 22:25:42,277:WARNING: * Debugger is active!
+2025-11-24 22:25:42,281:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:26:39,542:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\existing_jobs.py', reloading
+2025-11-24 22:26:39,627:INFO: * Restarting with stat
+2025-11-24 22:26:40,220:WARNING: * Debugger is active!
+2025-11-24 22:26:40,224:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:27:04,582:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\existing_jobs.py', reloading
+2025-11-24 22:27:04,755:INFO: * Restarting with stat
+2025-11-24 22:27:05,512:WARNING: * Debugger is active!
+2025-11-24 22:27:05,518:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:27:23,543:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\existing_jobs.py', reloading
+2025-11-24 22:27:23,643:INFO: * Restarting with stat
+2025-11-24 22:27:24,239:WARNING: * Debugger is active!
+2025-11-24 22:27:24,243:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:27:35,489:INFO:127.0.0.1 - - [24/Nov/2025 22:27:35] "GET / HTTP/1.1" 200 -
+2025-11-24 22:27:40,073:INFO:127.0.0.1 - - [24/Nov/2025 22:27:40] "GET / HTTP/1.1" 200 -
+2025-11-24 22:29:09,642:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\existing_jobs.py', reloading
+2025-11-24 22:29:09,717:INFO: * Restarting with stat
+2025-11-24 22:31:39,643:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 22:31:39,643:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 22:31:39,644:INFO: * Restarting with stat
+2025-11-24 22:31:40,269:WARNING: * Debugger is active!
+2025-11-24 22:31:40,273:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:31:42,580:INFO:127.0.0.1 - - [24/Nov/2025 22:31:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:31:42,659:INFO:127.0.0.1 - - [24/Nov/2025 22:31:42] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:31:42,661:INFO:127.0.0.1 - - [24/Nov/2025 22:31:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:31:42,701:INFO:127.0.0.1 - - [24/Nov/2025 22:31:42] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=EGhSZV251KPlN3HGqDM0 HTTP/1.1" 200 -
+2025-11-24 22:31:42,723:INFO:127.0.0.1 - - [24/Nov/2025 22:31:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 22:31:44,267:INFO:127.0.0.1 - - [24/Nov/2025 22:31:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:31:44,284:INFO:127.0.0.1 - - [24/Nov/2025 22:31:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:31:44,285:INFO:127.0.0.1 - - [24/Nov/2025 22:31:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:31:44,299:INFO:127.0.0.1 - - [24/Nov/2025 22:31:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=EGhSZV251KPlN3HGqDM0 HTTP/1.1[0m" 304 -
+2025-11-24 22:31:44,310:INFO:127.0.0.1 - - [24/Nov/2025 22:31:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 22:31:46,242:INFO:127.0.0.1 - - [24/Nov/2025 22:31:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:31:46,254:INFO:127.0.0.1 - - [24/Nov/2025 22:31:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:31:46,254:INFO:127.0.0.1 - - [24/Nov/2025 22:31:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:31:46,261:INFO:127.0.0.1 - - [24/Nov/2025 22:31:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=EGhSZV251KPlN3HGqDM0 HTTP/1.1[0m" 304 -
+2025-11-24 22:33:44,967:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\__init__.py', reloading
+2025-11-24 22:33:45,052:INFO: * Restarting with stat
+2025-11-24 22:35:37,788:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 22:35:37,788:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 22:35:37,789:INFO: * Restarting with stat
+2025-11-24 22:35:38,488:WARNING: * Debugger is active!
+2025-11-24 22:35:38,492:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:38:48,517:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 22:38:48,518:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 22:38:48,519:INFO: * Restarting with stat
+2025-11-24 22:38:49,082:WARNING: * Debugger is active!
+2025-11-24 22:38:49,088:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:38:57,643:INFO:127.0.0.1 - - [24/Nov/2025 22:38:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:38:57,740:INFO:127.0.0.1 - - [24/Nov/2025 22:38:57] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:38:57,740:INFO:127.0.0.1 - - [24/Nov/2025 22:38:57] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:38:57,778:INFO:127.0.0.1 - - [24/Nov/2025 22:38:57] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=lVBDiKTtNzrTEFSQBrXt HTTP/1.1" 200 -
+2025-11-24 22:38:57,793:INFO:127.0.0.1 - - [24/Nov/2025 22:38:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 22:40:41,581:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-24 22:40:41,641:INFO: * Restarting with stat
+2025-11-24 22:40:42,342:WARNING: * Debugger is active!
+2025-11-24 22:40:42,345:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:41:31,235:INFO:127.0.0.1 - - [24/Nov/2025 22:41:31] "GET / HTTP/1.1" 200 -
+2025-11-24 22:41:31,252:INFO:127.0.0.1 - - [24/Nov/2025 22:41:31] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:42:20,206:INFO:127.0.0.1 - - [24/Nov/2025 22:42:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:42:20,318:INFO:127.0.0.1 - - [24/Nov/2025 22:42:20] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:42:20,318:INFO:127.0.0.1 - - [24/Nov/2025 22:42:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:42:20,363:INFO:127.0.0.1 - - [24/Nov/2025 22:42:20] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=uIhMbNx8xdzi727tqYIv HTTP/1.1" 200 -
+2025-11-24 22:42:20,397:INFO:127.0.0.1 - - [24/Nov/2025 22:42:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 22:44:22,415:INFO:127.0.0.1 - - [24/Nov/2025 22:44:22] "GET / HTTP/1.1" 200 -
+2025-11-24 22:44:22,435:INFO:127.0.0.1 - - [24/Nov/2025 22:44:22] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:44:25,121:INFO:127.0.0.1 - - [24/Nov/2025 22:44:25] "GET / HTTP/1.1" 200 -
+2025-11-24 22:44:25,139:INFO:127.0.0.1 - - [24/Nov/2025 22:44:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:44:26,623:INFO:127.0.0.1 - - [24/Nov/2025 22:44:26] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:53:58,222:INFO:127.0.0.1 - - [24/Nov/2025 22:53:58] "GET / HTTP/1.1" 200 -
+2025-11-24 22:53:58,240:INFO:127.0.0.1 - - [24/Nov/2025 22:53:58] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:53:59,689:INFO:127.0.0.1 - - [24/Nov/2025 22:53:59] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:53:59,707:INFO:127.0.0.1 - - [24/Nov/2025 22:53:59] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:54:44,059:INFO:127.0.0.1 - - [24/Nov/2025 22:54:44] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:54:44,075:INFO:127.0.0.1 - - [24/Nov/2025 22:54:44] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:54:47,588:INFO:127.0.0.1 - - [24/Nov/2025 22:54:47] "GET / HTTP/1.1" 200 -
+2025-11-24 22:54:47,615:INFO:127.0.0.1 - - [24/Nov/2025 22:54:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:54:48,599:INFO:127.0.0.1 - - [24/Nov/2025 22:54:48] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:54:48,620:INFO:127.0.0.1 - - [24/Nov/2025 22:54:48] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:54:49,375:INFO:127.0.0.1 - - [24/Nov/2025 22:54:49] "GET / HTTP/1.1" 200 -
+2025-11-24 22:54:49,396:INFO:127.0.0.1 - - [24/Nov/2025 22:54:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:54:50,153:INFO:127.0.0.1 - - [24/Nov/2025 22:54:50] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:54:50,168:INFO:127.0.0.1 - - [24/Nov/2025 22:54:50] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:55:04,167:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 22:55:04,167:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 22:55:04,168:INFO: * Restarting with stat
+2025-11-24 22:55:04,687:WARNING: * Debugger is active!
+2025-11-24 22:55:04,691:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:55:08,006:INFO:127.0.0.1 - - [24/Nov/2025 22:55:08] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:55:08,025:INFO:127.0.0.1 - - [24/Nov/2025 22:55:08] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:55:09,191:INFO:127.0.0.1 - - [24/Nov/2025 22:55:09] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:55:09,206:INFO:127.0.0.1 - - [24/Nov/2025 22:55:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:55:09,369:INFO:127.0.0.1 - - [24/Nov/2025 22:55:09] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:55:09,384:INFO:127.0.0.1 - - [24/Nov/2025 22:55:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:55:09,655:INFO:127.0.0.1 - - [24/Nov/2025 22:55:09] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:55:09,673:INFO:127.0.0.1 - - [24/Nov/2025 22:55:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:55:12,156:INFO:127.0.0.1 - - [24/Nov/2025 22:55:12] "GET / HTTP/1.1" 200 -
+2025-11-24 22:55:12,186:INFO:127.0.0.1 - - [24/Nov/2025 22:55:12] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:55:13,315:INFO:127.0.0.1 - - [24/Nov/2025 22:55:13] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:55:13,340:INFO:127.0.0.1 - - [24/Nov/2025 22:55:13] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:55:13,869:INFO:127.0.0.1 - - [24/Nov/2025 22:55:13] "GET / HTTP/1.1" 200 -
+2025-11-24 22:55:13,896:INFO:127.0.0.1 - - [24/Nov/2025 22:55:13] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:55:14,223:INFO:127.0.0.1 - - [24/Nov/2025 22:55:14] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 22:55:14,245:INFO:127.0.0.1 - - [24/Nov/2025 22:55:14] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-11-24 22:55:40,532:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-24 22:55:40,631:INFO: * Restarting with stat
+2025-11-24 22:55:41,378:WARNING: * Debugger is active!
+2025-11-24 22:55:41,382:INFO: * Debugger PIN: 608-876-673
+2025-11-24 22:55:42,017:INFO:127.0.0.1 - - [24/Nov/2025 22:55:42] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-24 22:55:42,064:INFO:127.0.0.1 - - [24/Nov/2025 22:55:42] "GET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-24 22:55:42,064:INFO:127.0.0.1 - - [24/Nov/2025 22:55:42] "GET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-24 22:55:42,079:INFO:127.0.0.1 - - [24/Nov/2025 22:55:42] "GET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=AtsaQLwRyUDLNDtvHmB4 HTTP/1.1" 200 -
+2025-11-24 22:55:42,088:INFO:127.0.0.1 - - [24/Nov/2025 22:55:42] "GET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-24 22:55:47,004:INFO:127.0.0.1 - - [24/Nov/2025 22:55:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:55:47,561:INFO:127.0.0.1 - - [24/Nov/2025 22:55:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:55:47,583:INFO:127.0.0.1 - - [24/Nov/2025 22:55:47] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:55:47,583:INFO:127.0.0.1 - - [24/Nov/2025 22:55:47] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:55:47,589:INFO:127.0.0.1 - - [24/Nov/2025 22:55:47] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=AtsaQLwRyUDLNDtvHmB4 HTTP/1.1" 200 -
+2025-11-24 22:55:47,603:INFO:127.0.0.1 - - [24/Nov/2025 22:55:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 22:55:48,727:INFO:127.0.0.1 - - [24/Nov/2025 22:55:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:55:48,740:INFO:127.0.0.1 - - [24/Nov/2025 22:55:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:55:48,741:INFO:127.0.0.1 - - [24/Nov/2025 22:55:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:55:48,755:INFO:127.0.0.1 - - [24/Nov/2025 22:55:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=AtsaQLwRyUDLNDtvHmB4 HTTP/1.1[0m" 304 -
+2025-11-24 22:55:49,984:INFO:127.0.0.1 - - [24/Nov/2025 22:55:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:55:50,001:INFO:127.0.0.1 - - [24/Nov/2025 22:55:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:55:50,003:INFO:127.0.0.1 - - [24/Nov/2025 22:55:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:55:50,015:INFO:127.0.0.1 - - [24/Nov/2025 22:55:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=AtsaQLwRyUDLNDtvHmB4 HTTP/1.1[0m" 304 -
+2025-11-24 22:56:50,147:INFO:127.0.0.1 - - [24/Nov/2025 22:56:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 22:56:50,165:INFO:127.0.0.1 - - [24/Nov/2025 22:56:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 22:56:50,166:INFO:127.0.0.1 - - [24/Nov/2025 22:56:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 22:56:50,197:INFO:127.0.0.1 - - [24/Nov/2025 22:56:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=AtsaQLwRyUDLNDtvHmB4 HTTP/1.1[0m" 304 -
+2025-11-24 23:01:47,214:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-24 23:01:47,278:INFO: * Restarting with stat
+2025-11-24 23:01:47,811:WARNING: * Debugger is active!
+2025-11-24 23:01:47,814:INFO: * Debugger PIN: 608-876-673
+2025-11-24 23:01:52,111:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 23:01:52,111:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 23:01:52,112:INFO: * Restarting with stat
+2025-11-24 23:01:52,614:WARNING: * Debugger is active!
+2025-11-24 23:01:52,617:INFO: * Debugger PIN: 608-876-673
+2025-11-24 23:01:57,769:INFO:127.0.0.1 - - [24/Nov/2025 23:01:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 23:01:57,868:INFO:127.0.0.1 - - [24/Nov/2025 23:01:57] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 23:01:57,869:INFO:127.0.0.1 - - [24/Nov/2025 23:01:57] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 23:01:57,883:INFO:127.0.0.1 - - [24/Nov/2025 23:01:57] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=MiJqmDrH6ZVFBK6F8UJD HTTP/1.1" 200 -
+2025-11-24 23:03:00,530:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 23:03:00,530:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 23:03:00,531:INFO: * Restarting with stat
+2025-11-24 23:03:01,138:WARNING: * Debugger is active!
+2025-11-24 23:03:01,143:INFO: * Debugger PIN: 608-876-673
+2025-11-24 23:03:04,985:INFO:127.0.0.1 - - [24/Nov/2025 23:03:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 23:03:05,036:INFO:127.0.0.1 - - [24/Nov/2025 23:03:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 23:03:05,037:INFO:127.0.0.1 - - [24/Nov/2025 23:03:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 23:03:05,050:INFO:127.0.0.1 - - [24/Nov/2025 23:03:05] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=0ASO23UCGwd7m9bRmnTZ HTTP/1.1" 200 -
+2025-11-24 23:03:07,136:INFO:127.0.0.1 - - [24/Nov/2025 23:03:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 23:03:07,150:INFO:127.0.0.1 - - [24/Nov/2025 23:03:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 23:03:07,152:INFO:127.0.0.1 - - [24/Nov/2025 23:03:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 23:03:07,167:INFO:127.0.0.1 - - [24/Nov/2025 23:03:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=0ASO23UCGwd7m9bRmnTZ HTTP/1.1[0m" 304 -
+2025-11-24 23:03:07,184:INFO:127.0.0.1 - - [24/Nov/2025 23:03:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 23:03:07,401:INFO:127.0.0.1 - - [24/Nov/2025 23:03:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 23:03:07,422:INFO:127.0.0.1 - - [24/Nov/2025 23:03:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 23:03:07,425:INFO:127.0.0.1 - - [24/Nov/2025 23:03:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 23:03:07,438:INFO:127.0.0.1 - - [24/Nov/2025 23:03:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=0ASO23UCGwd7m9bRmnTZ HTTP/1.1[0m" 304 -
+2025-11-24 23:03:07,453:INFO:127.0.0.1 - - [24/Nov/2025 23:03:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 23:03:14,552:INFO:127.0.0.1 - - [24/Nov/2025 23:03:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-24 23:03:14,567:INFO:127.0.0.1 - - [24/Nov/2025 23:03:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 23:03:14,568:INFO:127.0.0.1 - - [24/Nov/2025 23:03:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 23:03:14,586:INFO:127.0.0.1 - - [24/Nov/2025 23:03:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=0ASO23UCGwd7m9bRmnTZ HTTP/1.1[0m" 304 -
+2025-11-24 23:04:40,672:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-24 23:04:40,775:INFO: * Restarting with stat
+2025-11-24 23:04:41,380:WARNING: * Debugger is active!
+2025-11-24 23:04:41,384:INFO: * Debugger PIN: 608-876-673
+2025-11-24 23:09:34,968:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\routes.py', reloading
+2025-11-24 23:09:35,066:INFO: * Restarting with stat
+2025-11-24 23:09:35,646:WARNING: * Debugger is active!
+2025-11-24 23:09:35,647:INFO: * Debugger PIN: 608-876-673
+2025-11-24 23:11:26,704:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 23:11:26,704:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 23:11:26,705:INFO: * Restarting with stat
+2025-11-24 23:11:27,223:WARNING: * Debugger is active!
+2025-11-24 23:11:27,224:INFO: * Debugger PIN: 608-876-673
+2025-11-24 23:11:29,693:INFO:127.0.0.1 - - [24/Nov/2025 23:11:29] "GET / HTTP/1.1" 200 -
+2025-11-24 23:11:42,482:INFO:127.0.0.1 - - [24/Nov/2025 23:11:42] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:11:43,605:INFO:127.0.0.1 - - [24/Nov/2025 23:11:43] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:11:44,424:INFO:127.0.0.1 - - [24/Nov/2025 23:11:44] "GET /about HTTP/1.1" 200 -
+2025-11-24 23:11:47,853:INFO:127.0.0.1 - - [24/Nov/2025 23:11:47] "GET /inspiration HTTP/1.1" 200 -
+2025-11-24 23:11:56,170:INFO:127.0.0.1 - - [24/Nov/2025 23:11:56] "GET /inspiration HTTP/1.1" 200 -
+2025-11-24 23:12:04,073:INFO:127.0.0.1 - - [24/Nov/2025 23:12:04] "GET /about HTTP/1.1" 200 -
+2025-11-24 23:12:06,037:INFO:127.0.0.1 - - [24/Nov/2025 23:12:06] "GET /inspiration HTTP/1.1" 200 -
+2025-11-24 23:12:07,317:INFO:127.0.0.1 - - [24/Nov/2025 23:12:07] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:12:11,714:INFO:127.0.0.1 - - [24/Nov/2025 23:12:11] "GET /add_job HTTP/1.1" 200 -
+2025-11-24 23:12:14,704:INFO:127.0.0.1 - - [24/Nov/2025 23:12:14] "GET /profile HTTP/1.1" 200 -
+2025-11-24 23:12:14,736:INFO:127.0.0.1 - - [24/Nov/2025 23:12:14] "[33mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 404 -
+2025-11-24 23:16:44,163:INFO:127.0.0.1 - - [24/Nov/2025 23:16:44] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2025-11-24 23:16:44,177:INFO:127.0.0.1 - - [24/Nov/2025 23:16:44] "GET /profile HTTP/1.1" 200 -
+2025-11-24 23:16:44,263:INFO:127.0.0.1 - - [24/Nov/2025 23:16:44] "GET /static/profile_pics/IMG_0391.jpg HTTP/1.1" 200 -
+2025-11-24 23:17:15,640:INFO:127.0.0.1 - - [24/Nov/2025 23:17:15] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2025-11-24 23:17:15,648:INFO:127.0.0.1 - - [24/Nov/2025 23:17:15] "GET /profile HTTP/1.1" 200 -
+2025-11-24 23:17:15,665:INFO:127.0.0.1 - - [24/Nov/2025 23:17:15] "[36mGET /static/profile_pics/IMG_0391.jpg HTTP/1.1[0m" 304 -
+2025-11-24 23:17:20,459:INFO:127.0.0.1 - - [24/Nov/2025 23:17:20] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:17:21,905:INFO:127.0.0.1 - - [24/Nov/2025 23:17:21] "GET /profile HTTP/1.1" 200 -
+2025-11-24 23:17:21,921:INFO:127.0.0.1 - - [24/Nov/2025 23:17:21] "[36mGET /static/profile_pics/IMG_0391.jpg HTTP/1.1[0m" 304 -
+2025-11-24 23:17:23,042:INFO:127.0.0.1 - - [24/Nov/2025 23:17:23] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:17:24,975:INFO:127.0.0.1 - - [24/Nov/2025 23:17:24] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:17:25,777:INFO:127.0.0.1 - - [24/Nov/2025 23:17:25] "GET /about HTTP/1.1" 200 -
+2025-11-24 23:23:48,179:INFO:127.0.0.1 - - [24/Nov/2025 23:23:48] "GET /about HTTP/1.1" 200 -
+2025-11-24 23:23:49,960:INFO:127.0.0.1 - - [24/Nov/2025 23:23:49] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:27:41,953:INFO:127.0.0.1 - - [24/Nov/2025 23:27:41] "GET /job/7 HTTP/1.1" 200 -
+2025-11-24 23:29:17,316:INFO:127.0.0.1 - - [24/Nov/2025 23:29:17] "GET /job/7 HTTP/1.1" 200 -
+2025-11-24 23:29:20,421:INFO:127.0.0.1 - - [24/Nov/2025 23:29:20] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:30:42,274:INFO:127.0.0.1 - - [24/Nov/2025 23:30:42] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:31:00,426:INFO:127.0.0.1 - - [24/Nov/2025 23:31:00] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:31:08,643:INFO:127.0.0.1 - - [24/Nov/2025 23:31:08] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:31:31,797:INFO:127.0.0.1 - - [24/Nov/2025 23:31:31] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:31:51,612:INFO:127.0.0.1 - - [24/Nov/2025 23:31:51] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:31:53,070:INFO:127.0.0.1 - - [24/Nov/2025 23:31:53] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:32:18,848:INFO:127.0.0.1 - - [24/Nov/2025 23:32:18] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:32:33,471:INFO:127.0.0.1 - - [24/Nov/2025 23:32:33] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:32:35,463:INFO:127.0.0.1 - - [24/Nov/2025 23:32:35] "GET /job/6 HTTP/1.1" 200 -
+2025-11-24 23:35:46,367:INFO:127.0.0.1 - - [24/Nov/2025 23:35:46] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:36:35,034:INFO:127.0.0.1 - - [24/Nov/2025 23:36:35] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:36:48,503:INFO:127.0.0.1 - - [24/Nov/2025 23:36:48] "GET /add_job HTTP/1.1" 200 -
+2025-11-24 23:36:54,026:INFO:127.0.0.1 - - [24/Nov/2025 23:36:54] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:37:50,768:INFO:127.0.0.1 - - [24/Nov/2025 23:37:50] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:38:19,970:INFO:127.0.0.1 - - [24/Nov/2025 23:38:19] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:38:28,208:INFO:127.0.0.1 - - [24/Nov/2025 23:38:28] "GET /job/7 HTTP/1.1" 200 -
+2025-11-24 23:39:41,733:INFO:127.0.0.1 - - [24/Nov/2025 23:39:41] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:41:10,587:INFO:127.0.0.1 - - [24/Nov/2025 23:41:10] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-24 23:41:10,606:INFO:127.0.0.1 - - [24/Nov/2025 23:41:10] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 23:41:10,606:INFO:127.0.0.1 - - [24/Nov/2025 23:41:10] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 23:41:10,619:INFO:127.0.0.1 - - [24/Nov/2025 23:41:10] "GET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=xzqgXEw4Qa2EnuNcBwHN HTTP/1.1" 200 -
+2025-11-24 23:41:10,642:INFO:127.0.0.1 - - [24/Nov/2025 23:41:10] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 23:41:17,949:INFO:127.0.0.1 - - [24/Nov/2025 23:41:17] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:42:16,312:INFO:127.0.0.1 - - [24/Nov/2025 23:42:16] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:42:27,522:INFO:127.0.0.1 - - [24/Nov/2025 23:42:27] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:43:00,079:INFO:127.0.0.1 - - [24/Nov/2025 23:43:00] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:43:12,412:INFO:127.0.0.1 - - [24/Nov/2025 23:43:12] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:44:16,709:INFO:127.0.0.1 - - [24/Nov/2025 23:44:16] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-24 23:44:16,730:INFO:127.0.0.1 - - [24/Nov/2025 23:44:16] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 23:44:16,734:INFO:127.0.0.1 - - [24/Nov/2025 23:44:16] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 23:44:16,745:INFO:127.0.0.1 - - [24/Nov/2025 23:44:16] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=xzqgXEw4Qa2EnuNcBwHN HTTP/1.1[0m" 304 -
+2025-11-24 23:44:16,759:INFO:127.0.0.1 - - [24/Nov/2025 23:44:16] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-24 23:44:20,185:INFO:127.0.0.1 - - [24/Nov/2025 23:44:20] "GET /add_job HTTP/1.1" 200 -
+2025-11-24 23:44:22,844:INFO:127.0.0.1 - - [24/Nov/2025 23:44:22] "[35m[1mGET /jobs HTTP/1.1[0m" 500 -
+2025-11-24 23:44:22,860:INFO:127.0.0.1 - - [24/Nov/2025 23:44:22] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-24 23:44:22,862:INFO:127.0.0.1 - - [24/Nov/2025 23:44:22] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-24 23:44:22,877:INFO:127.0.0.1 - - [24/Nov/2025 23:44:22] "[36mGET /jobs?__debugger__=yes&cmd=resource&f=console.png&s=xzqgXEw4Qa2EnuNcBwHN HTTP/1.1[0m" 304 -
+2025-11-24 23:45:25,425:INFO:127.0.0.1 - - [24/Nov/2025 23:45:25] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:45:34,035:INFO:127.0.0.1 - - [24/Nov/2025 23:45:34] "GET /job/7 HTTP/1.1" 200 -
+2025-11-24 23:45:37,540:INFO:127.0.0.1 - - [24/Nov/2025 23:45:37] "GET /edit_job/7 HTTP/1.1" 200 -
+2025-11-24 23:45:44,905:INFO:Job edited: Cloud Solutions Architect by eleneedolidze@gmail.com
+2025-11-24 23:45:44,906:INFO:127.0.0.1 - - [24/Nov/2025 23:45:44] "[32mPOST /edit_job/7 HTTP/1.1[0m" 302 -
+2025-11-24 23:45:44,919:INFO:127.0.0.1 - - [24/Nov/2025 23:45:44] "GET /job/7 HTTP/1.1" 200 -
+2025-11-24 23:45:47,680:INFO:127.0.0.1 - - [24/Nov/2025 23:45:47] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:49:50,611:INFO:127.0.0.1 - - [24/Nov/2025 23:49:50] "GET /job/7 HTTP/1.1" 200 -
+2025-11-24 23:51:27,883:INFO:127.0.0.1 - - [24/Nov/2025 23:51:27] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:51:32,219:INFO:127.0.0.1 - - [24/Nov/2025 23:51:32] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:51:33,514:INFO:127.0.0.1 - - [24/Nov/2025 23:51:33] "GET /profile HTTP/1.1" 200 -
+2025-11-24 23:51:33,528:INFO:127.0.0.1 - - [24/Nov/2025 23:51:33] "[36mGET /static/profile_pics/IMG_0391.jpg HTTP/1.1[0m" 304 -
+2025-11-24 23:51:35,033:INFO:127.0.0.1 - - [24/Nov/2025 23:51:35] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:51:36,986:INFO:127.0.0.1 - - [24/Nov/2025 23:51:36] "GET /inspiration HTTP/1.1" 200 -
+2025-11-24 23:51:50,232:INFO:127.0.0.1 - - [24/Nov/2025 23:51:50] "GET /add_job HTTP/1.1" 200 -
+2025-11-24 23:51:51,148:INFO:127.0.0.1 - - [24/Nov/2025 23:51:51] "GET /profile HTTP/1.1" 200 -
+2025-11-24 23:51:51,162:INFO:127.0.0.1 - - [24/Nov/2025 23:51:51] "[36mGET /static/profile_pics/IMG_0391.jpg HTTP/1.1[0m" 304 -
+2025-11-24 23:51:52,904:INFO:User logged out: eleneedolidze@gmail.com
+2025-11-24 23:51:52,906:INFO:127.0.0.1 - - [24/Nov/2025 23:51:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-24 23:51:52,917:INFO:127.0.0.1 - - [24/Nov/2025 23:51:52] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:51:54,290:INFO:127.0.0.1 - - [24/Nov/2025 23:51:54] "GET /job/7 HTTP/1.1" 200 -
+2025-11-24 23:51:59,382:INFO:127.0.0.1 - - [24/Nov/2025 23:51:59] "GET /login HTTP/1.1" 200 -
+2025-11-24 23:52:01,123:WARNING:Failed login attempt: dolidzee@gmail.com
+2025-11-24 23:52:01,125:INFO:127.0.0.1 - - [24/Nov/2025 23:52:01] "POST /login HTTP/1.1" 200 -
+2025-11-24 23:52:05,483:WARNING:Failed login attempt: eleneedolidze@gmail.com
+2025-11-24 23:52:05,485:INFO:127.0.0.1 - - [24/Nov/2025 23:52:05] "POST /login HTTP/1.1" 200 -
+2025-11-24 23:53:47,920:INFO:127.0.0.1 - - [24/Nov/2025 23:53:47] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:53:49,916:INFO:127.0.0.1 - - [24/Nov/2025 23:53:49] "GET /login HTTP/1.1" 200 -
+2025-11-24 23:53:53,290:WARNING:Failed login attempt: eleneedolidze@gmail.com
+2025-11-24 23:53:53,292:INFO:127.0.0.1 - - [24/Nov/2025 23:53:53] "POST /login HTTP/1.1" 200 -
+2025-11-24 23:54:03,232:WARNING:Failed login attempt: eleneedolidze@gmail.com
+2025-11-24 23:54:03,234:INFO:127.0.0.1 - - [24/Nov/2025 23:54:03] "POST /login HTTP/1.1" 200 -
+2025-11-24 23:54:06,495:WARNING:Failed login attempt: eleneedolidze@gmail.com
+2025-11-24 23:54:06,497:INFO:127.0.0.1 - - [24/Nov/2025 23:54:06] "POST /login HTTP/1.1" 200 -
+2025-11-24 23:55:29,020:INFO:127.0.0.1 - - [24/Nov/2025 23:55:29] "GET /register HTTP/1.1" 200 -
+2025-11-24 23:55:58,251:INFO:New user registered: Valentin@gmail.com
+2025-11-24 23:55:58,251:INFO:127.0.0.1 - - [24/Nov/2025 23:55:58] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-24 23:55:58,259:INFO:127.0.0.1 - - [24/Nov/2025 23:55:58] "GET /login HTTP/1.1" 200 -
+2025-11-24 23:56:02,262:INFO:User logged in successfully: Valentin@gmail.com
+2025-11-24 23:56:02,263:INFO:127.0.0.1 - - [24/Nov/2025 23:56:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 23:56:02,276:INFO:127.0.0.1 - - [24/Nov/2025 23:56:02] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:56:03,752:INFO:127.0.0.1 - - [24/Nov/2025 23:56:03] "GET /job/7 HTTP/1.1" 200 -
+2025-11-24 23:56:05,642:INFO:127.0.0.1 - - [24/Nov/2025 23:56:05] "GET /add_job HTTP/1.1" 200 -
+2025-11-24 23:56:57,873:INFO:Job added: Junior Risk Analyst by Valentin@gmail.com
+2025-11-24 23:56:57,873:INFO:127.0.0.1 - - [24/Nov/2025 23:56:57] "[32mPOST /add_job HTTP/1.1[0m" 302 -
+2025-11-24 23:56:57,885:INFO:127.0.0.1 - - [24/Nov/2025 23:56:57] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:57:02,857:INFO:127.0.0.1 - - [24/Nov/2025 23:57:02] "GET /job/8 HTTP/1.1" 200 -
+2025-11-24 23:57:06,679:INFO:User logged out: Valentin@gmail.com
+2025-11-24 23:57:06,681:INFO:127.0.0.1 - - [24/Nov/2025 23:57:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-24 23:57:06,692:INFO:127.0.0.1 - - [24/Nov/2025 23:57:06] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:57:09,536:INFO:127.0.0.1 - - [24/Nov/2025 23:57:09] "GET /job/8 HTTP/1.1" 200 -
+2025-11-24 23:57:11,290:INFO:127.0.0.1 - - [24/Nov/2025 23:57:11] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:57:11,927:INFO:127.0.0.1 - - [24/Nov/2025 23:57:11] "GET /job/7 HTTP/1.1" 200 -
+2025-11-24 23:57:14,006:INFO:127.0.0.1 - - [24/Nov/2025 23:57:14] "GET /login HTTP/1.1" 200 -
+2025-11-24 23:57:16,828:WARNING:Failed login attempt: eleneedolidze@gmail.com
+2025-11-24 23:57:16,832:INFO:127.0.0.1 - - [24/Nov/2025 23:57:16] "POST /login HTTP/1.1" 200 -
+2025-11-24 23:57:19,643:WARNING:Failed login attempt: dolidzee@gmail.com
+2025-11-24 23:57:19,646:INFO:127.0.0.1 - - [24/Nov/2025 23:57:19] "POST /login HTTP/1.1" 200 -
+2025-11-24 23:57:23,921:INFO:127.0.0.1 - - [24/Nov/2025 23:57:23] "GET /login HTTP/1.1" 200 -
+2025-11-24 23:57:25,164:INFO:User logged in successfully: Valentin@gmail.com
+2025-11-24 23:57:25,165:INFO:127.0.0.1 - - [24/Nov/2025 23:57:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 23:57:25,175:INFO:127.0.0.1 - - [24/Nov/2025 23:57:25] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:57:27,156:INFO:127.0.0.1 - - [24/Nov/2025 23:57:27] "GET /job/8 HTTP/1.1" 200 -
+2025-11-24 23:57:27,885:INFO:Job deleted: Junior Risk Analyst by Valentin@gmail.com
+2025-11-24 23:57:27,886:INFO:127.0.0.1 - - [24/Nov/2025 23:57:27] "[32mPOST /delete_job/8 HTTP/1.1[0m" 302 -
+2025-11-24 23:57:27,895:INFO:127.0.0.1 - - [24/Nov/2025 23:57:27] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:57:29,583:INFO:User logged out: Valentin@gmail.com
+2025-11-24 23:57:29,586:INFO:127.0.0.1 - - [24/Nov/2025 23:57:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-24 23:57:29,593:INFO:127.0.0.1 - - [24/Nov/2025 23:57:29] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:57:45,323:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-24 23:57:45,323:INFO:[33mPress CTRL+C to quit[0m
+2025-11-24 23:57:45,324:INFO: * Restarting with stat
+2025-11-24 23:57:45,805:WARNING: * Debugger is active!
+2025-11-24 23:57:45,814:INFO: * Debugger PIN: 608-876-673
+2025-11-24 23:58:14,222:INFO:127.0.0.1 - - [24/Nov/2025 23:58:14] "GET / HTTP/1.1" 200 -
+2025-11-24 23:58:17,329:INFO:127.0.0.1 - - [24/Nov/2025 23:58:17] "GET /jobs HTTP/1.1" 200 -
+2025-11-24 23:58:18,224:INFO:127.0.0.1 - - [24/Nov/2025 23:58:18] "GET /about HTTP/1.1" 200 -
+2025-11-24 23:58:20,495:INFO:127.0.0.1 - - [24/Nov/2025 23:58:20] "GET /inspiration HTTP/1.1" 200 -
+2025-11-24 23:58:22,088:INFO:127.0.0.1 - - [24/Nov/2025 23:58:22] "GET /jobs HTTP/1.1" 200 -
+2025-11-26 22:15:57,184:INFO:127.0.0.1 - - [26/Nov/2025 22:15:57] "GET /jobs HTTP/1.1" 200 -
+2025-11-26 22:15:59,531:INFO:127.0.0.1 - - [26/Nov/2025 22:15:59] "GET / HTTP/1.1" 200 -
+2025-11-26 22:16:01,576:INFO:127.0.0.1 - - [26/Nov/2025 22:16:01] "GET /jobs HTTP/1.1" 200 -
+2025-11-26 22:16:02,325:INFO:127.0.0.1 - - [26/Nov/2025 22:16:02] "GET /about HTTP/1.1" 200 -
+2025-11-26 22:16:05,215:INFO:127.0.0.1 - - [26/Nov/2025 22:16:05] "GET /inspiration HTTP/1.1" 200 -
+2025-11-26 22:16:22,540:INFO:127.0.0.1 - - [26/Nov/2025 22:16:22] "GET /login HTTP/1.1" 200 -
+2025-11-26 22:16:24,788:INFO:User logged in successfully: Valentin@gmail.com
+2025-11-26 22:16:24,790:INFO:127.0.0.1 - - [26/Nov/2025 22:16:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-26 22:16:24,805:INFO:127.0.0.1 - - [26/Nov/2025 22:16:24] "GET /jobs HTTP/1.1" 200 -
+2025-11-26 22:16:33,916:INFO:127.0.0.1 - - [26/Nov/2025 22:16:33] "GET /profile HTTP/1.1" 200 -
+2025-11-26 22:16:33,985:INFO:127.0.0.1 - - [26/Nov/2025 22:16:33] "[33mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 404 -
+2025-11-26 22:16:38,211:INFO:User logged out: Valentin@gmail.com
+2025-11-26 22:16:38,211:INFO:127.0.0.1 - - [26/Nov/2025 22:16:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-26 22:16:38,227:INFO:127.0.0.1 - - [26/Nov/2025 22:16:38] "GET /jobs HTTP/1.1" 200 -
+2025-11-26 22:16:40,047:INFO:127.0.0.1 - - [26/Nov/2025 22:16:40] "GET /login HTTP/1.1" 200 -
+2025-11-26 22:16:43,699:WARNING:Failed login attempt: dolidzee@gmail.com
+2025-11-26 22:16:43,702:INFO:127.0.0.1 - - [26/Nov/2025 22:16:43] "POST /login HTTP/1.1" 200 -
+2025-11-26 22:16:47,769:WARNING:Failed login attempt: dolidzee@gmail.com
+2025-11-26 22:16:47,771:INFO:127.0.0.1 - - [26/Nov/2025 22:16:47] "POST /login HTTP/1.1" 200 -
+2025-11-26 22:16:54,243:WARNING:Failed login attempt: dolidzee@gmail.com
+2025-11-26 22:16:54,246:INFO:127.0.0.1 - - [26/Nov/2025 22:16:54] "POST /login HTTP/1.1" 200 -
+2025-11-26 22:17:02,007:INFO:User logged in successfully: Valentin@gmail.com
+2025-11-26 22:17:02,009:INFO:127.0.0.1 - - [26/Nov/2025 22:17:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-26 22:17:02,017:INFO:127.0.0.1 - - [26/Nov/2025 22:17:02] "GET /jobs HTTP/1.1" 200 -
+2025-11-26 22:17:06,187:INFO:127.0.0.1 - - [26/Nov/2025 22:17:06] "GET /add_job HTTP/1.1" 200 -
+2025-11-26 22:19:35,321:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\forms.py', reloading
+2025-11-26 23:33:04,449:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-11-26 23:33:04,450:INFO:[33mPress CTRL+C to quit[0m
+2025-11-26 23:33:04,452:INFO: * Restarting with stat
+2025-11-26 23:33:05,103:WARNING: * Debugger is active!
+2025-11-26 23:33:05,105:INFO: * Debugger PIN: 608-876-673
+2025-11-26 23:33:09,727:INFO:127.0.0.1 - - [26/Nov/2025 23:33:09] "GET / HTTP/1.1" 200 -
+2025-11-26 23:33:12,567:INFO:127.0.0.1 - - [26/Nov/2025 23:33:12] "GET /add_job HTTP/1.1" 200 -
+2025-11-26 23:33:56,034:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\forms.py', reloading
+2025-11-26 23:33:56,114:INFO: * Restarting with stat
+2025-11-26 23:33:57,299:WARNING: * Debugger is active!
+2025-11-26 23:33:57,303:INFO: * Debugger PIN: 608-876-673
+2025-11-26 23:33:59,917:INFO:127.0.0.1 - - [26/Nov/2025 23:33:59] "GET /add_job HTTP/1.1" 200 -
+2025-11-26 23:35:56,155:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\forms.py', reloading
+2025-11-26 23:35:56,286:INFO: * Restarting with stat
+2025-11-26 23:35:57,135:WARNING: * Debugger is active!
+2025-11-26 23:35:57,138:INFO: * Debugger PIN: 608-876-673
+2025-11-26 23:35:57,889:INFO:127.0.0.1 - - [26/Nov/2025 23:35:57] "GET /add_job HTTP/1.1" 200 -
+2025-11-26 23:36:53,006:INFO:127.0.0.1 - - [26/Nov/2025 23:36:53] "GET /user/1 HTTP/1.1" 200 -
+2025-11-26 23:36:56,808:INFO:127.0.0.1 - - [26/Nov/2025 23:36:56] "GET /job/2 HTTP/1.1" 200 -
+2025-11-26 23:43:26,437:INFO: * Detected change in 'C:\\Users\\elene\\OneDrive\\Desktop\\finalproject\\app\\forms.py', reloading
+2025-11-26 23:43:26,507:INFO: * Restarting with stat

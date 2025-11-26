@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Add Job</h2>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <div class="mb-3">
+        {{ form.title.label(class="form-label") }}
+        {{ form.title(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.short_desc.label(class="form-label") }}
+        {{ form.short_desc(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.full_desc.label(class="form-label") }}
+        {{ form.full_desc(class="form-control", rows=5) }}
+    </div>
+    <div class="mb-3">
+        {{ form.company.label(class="form-label") }}
+        {{ form.company(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.salary.label(class="form-label") }}
+        {{ form.salary(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.location.label(class="form-label") }}
+        {{ form.location(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.category.label(class="form-label") }}
+        {{ form.category(class="form-select") }}
+    </div>
+    {{ form.submit(class="btn btn-primary") }}
+</form>
+{% endblock %}

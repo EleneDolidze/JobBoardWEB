@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>{{ job.title }}</h2>
+<p><strong>Company:</strong> {{ job.company }}</p>
+<p><strong>Location:</strong> {{ job.location }}</p>
+<p><strong>Salary:</strong> {{ job.salary }}</p>
+<p><strong>Category:</strong> {{ job.category }}</p>
+<p><strong>Date Posted:</strong> {{ job.date_posted.strftime('%Y-%m-%d') }}</p>
+<hr>
+<p>{{ job.full_desc }}</p>
+
+{% if current_user == job.author %}
+    <a href="{{ url_for('edit_job', job_id=job.id) }}" class="btn btn-warning">Edit</a>
+    <form action="{{ url_for('delete_job', job_id=job.id) }}" method="POST" style="display:inline;">
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+{% endif %}
+{% endblock %}
