@@ -97,3 +97,87 @@ def inspiration():
         import logging
         logging.error(f"ZenQuotes API error: {e}")
     return render_template("inspiration.html", quote=quote)
+
+
+@bp.route("/jobs/add", methods=['GET', 'POST'])
+@login_required
+def add_job():
+    form = JobForm()
+    if form.validate_on_submit():
+        job = Job(
+            title=form.title.data,
+            short_desc=form.short_desc.data,
+            full_desc=form.full_desc.data,
+            company=form.company.data,
+            salary=form.salary.data,
+            location=form.location.data,
+            category=form.category.data,
+            author=current_user
+        )
+        db.session.add(job)
+        db.session.commit()
+        flash("Job added successfully!", "success")
+        return redirect(url_for("main.jobs"))
+    return render_template("add_job.html", form=form)
+
+
+@bp.route("/logout")
+@login_required
+def logout():
+    logout_user()
+    flash("You have been logged out.", "info")
+    return redirect(url_for("main.login"))
+
+@bp.route("/users/<int:user_id>/jobs")
+@login_required
+def user_jobs(user_id):
+    user = User.query.get_or_404(user_id)
+    jobs = Job.query.filter_by(author=user).all()
+    return render_template("user_jobs.html", user=user, jobs=jobs)
+
+@bp.route("/jobs/<int:job_id>")
+def job_detail(job_id):
+    job = Job.query.get_or_404(job_id)
+    return render_template("job_detail.html", job=job)
+
+@bp.route("/jobs/<int:job_id>/edit", methods=['GET', 'POST'])
+@login_required
+def edit_job(job_id):
+    job = Job.query.get_or_404(job_id)
+
+    # Make sure only the author can edit
+    if job.author != current_user:
+        flash("You are not authorized to edit this job.", "danger")
+        return redirect(url_for("main.jobs"))
+
+    form = JobForm(obj=job)  # Pre-fill form with job data
+
+    if form.validate_on_submit():
+        job.title = form.title.data
+        job.short_desc = form.short_desc.data
+        job.full_desc = form.full_desc.data
+        job.company = form.company.data
+        job.salary = form.salary.data
+        job.location = form.location.data
+        job.category = form.category.data
+
+        db.session.commit()
+        flash("Job updated successfully!", "success")
+        return redirect(url_for("main.job_detail", job_id=job.id))
+
+    return render_template("edit_job.html", form=form, job=job)
+
+@bp.route("/jobs/<int:job_id>/delete", methods=['POST'])
+@login_required
+def delete_job(job_id):
+    job = Job.query.get_or_404(job_id)
+
+    # Make sure only the author can delete
+    if job.author != current_user:
+        flash("You are not authorized to delete this job.", "danger")
+        return redirect(url_for("main.jobs"))
+
+    db.session.delete(job)
+    db.session.commit()
+    flash("Job deleted successfully!", "success")
+    return redirect(url_for("main.jobs"))

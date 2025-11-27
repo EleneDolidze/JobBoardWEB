@@ -1,10 +1,10 @@
 {% extends "layout.html" %}
 
-{% block title %}ვაკანსიები{% endblock %}
+{% block title %}Vacancies{% endblock %}
 
 {% block content %}
 <div class="container mt-4">
-    <h1 class="mb-4">ვაკანსიები</h1>
+    <h1 class="mb-4">Vacancies</h1>
 
     {% if jobs %}
         <div class="row">
@@ -43,7 +43,7 @@
         </div>
     {% else %}
         <div class="alert alert-info">
-            <i class="fas fa-info-circle"></i> ვაკანსიები არ მოიძებნა.
+            <i class="fas fa-info-circle"></i> No jobs found.
         </div>
     {% endif %}
 </div>
